@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LangTalkMobileApp.MVVM.View.ChatsPage"
+             xmlns:bottomMenuElement="clr-namespace:LangTalkMobileApp.DesignElements"
+             Title="ChatsPage"
+             x:Name="ChatsPageRef"
+             Shell.NavBarIsVisible="False">
+    <VerticalStackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="750"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid BackgroundColor="#FFB3BA" HeightRequest="40" VerticalOptions="Start">
+                    <Label Text="Chat Name" FontSize="16" FontFamily="Karla" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+                </Grid>
+            </Grid>
+
+            <ScrollView Grid.Row="1">
+                <VerticalStackLayout
+        x:Name="ChatListLayout"
+        BindableLayout.ItemsSource="{Binding Chats}"
+        Padding="10"
+        Spacing="15">
+
+                    <BindableLayout.ItemTemplate>
+                        <DataTemplate>
+                            <Grid HeightRequest="70">
+
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer 
+                                            Command="{Binding Source={x:Reference ChatsPageRef}, Path=BindingContext.ChatTap}"
+                                            CommandParameter="{Binding IdChat}" />
+
+                                </Grid.GestureRecognizers>
+                                    <HorizontalStackLayout>
+
+                                    <Grid HorizontalOptions="Start" WidthRequest="70">
+                                        <Image Source="default_profile_image.jpg"
+                                   Aspect="AspectFill"
+                                   WidthRequest="60"
+                                   HeightRequest="60"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center">
+                                            <Image.Clip>
+                                                <EllipseGeometry Center="30,30" RadiusX="30" RadiusY="30"/>
+                                            </Image.Clip>
+                                        </Image>
+                                    </Grid>
+
+                                    <Grid>
+                                        <Grid WidthRequest="282">
+                                            <VerticalStackLayout>
+                                                <Grid HeightRequest="35">
+                                                    <Label Text="{Binding Nickname}" 
+                                               FontSize="20" 
+                                               FontFamily="Karla" 
+                                               VerticalOptions="Center"/>
+                                                </Grid>
+                                                <Grid HeightRequest="35">
+                                                    <Label Text="{Binding LastMessage}" 
+                                               FontSize="17" 
+                                               FontFamily="Karla" 
+                                               VerticalOptions="Start"/>
+                                                </Grid>
+                                            </VerticalStackLayout>
+                                        </Grid>
+                                    </Grid>
+
+                                    <Grid WidthRequest="50">
+                                        <Grid HeightRequest="35" VerticalOptions="Start">
+                                            <Label Text="{Binding TimeLastMessage}"
+                                       FontSize="18"
+                                       FontFamily="Karla"
+                                       VerticalOptions="Center"/>
+                                        </Grid>
+                                    </Grid>
+
+                                </HorizontalStackLayout>
+                            </Grid>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </VerticalStackLayout>
+            </ScrollView>
+
+            <Grid VerticalOptions="End" Grid.Row="2" HeightRequest="48" Margin="0,70,0,0">
+                <Border BackgroundColor="White"
+                        WidthRequest="412"
+                        HeightRequest="48"
+                        StrokeShape="RoundRectangle 50,50,0,0">
+
+
+                    <Border.Shadow>
+                        <Shadow
+     Brush="#FF677D"
+     Offset="0,0"
+     Radius="5"
+     Opacity="0.4"/>
+                    </Border.Shadow>
+
+                </Border>
+
+
+                <HorizontalStackLayout Spacing="90" HorizontalOptions="Center">
+                    <Grid>
+                        <Border WidthRequest="40" HeightRequest="40" Background="#D4A5A5" StrokeShape="RoundRectangle 15,15,15,15">
+                            <Button
+             WidthRequest="40"
+             HeightRequest="40"
+             BackgroundColor="#D4A5A5"
+             CornerRadius="20"
+             Padding="0"
+             BorderWidth="0"
+             ImageSource="search_icon.png"
+             Command="{Binding OnSelectPeopleCommand}"/>
+
+
+                        </Border>
+                    </Grid>
+                    <Grid>
+                        <Border WidthRequest="40" HeightRequest="40" Background="#D4A5A5" StrokeShape="RoundRectangle 15,15,15,15">
+                            <Button
+             WidthRequest="40"
+             HeightRequest="40"
+             BackgroundColor="#D4A5A5"
+             CornerRadius="20"
+             Padding="0"
+             BorderWidth="0"
+             ImageSource="profile_icon.png"
+                                Command="{Binding OnProfileCommand}" />
+                        </Border>
+                    </Grid>
+                    <Grid>
+                        <Border WidthRequest="40" HeightRequest="40" Background="#D4A5A5" StrokeShape="RoundRectangle 15,15,15,15">
+                            <Button
+             WidthRequest="40"
+             HeightRequest="40"
+             BackgroundColor="#D4A5A5"
+             CornerRadius="20"
+             Padding="0"
+             BorderWidth="0"
+             ImageSource="chats_icon.png"/>
+
+                        </Border>
+                    </Grid>
+                </HorizontalStackLayout>
+            </Grid>
+        </Grid>
+
+    </VerticalStackLayout>
+</ContentPage>

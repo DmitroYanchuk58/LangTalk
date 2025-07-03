@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LangTalkMobileApp.DesignElements.ProfileElements.HobbyPart">
+    <VerticalStackLayout>
+        <Grid MinimumHeightRequest="50"
+              MaximumHeightRequest="150">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Hobbies" FontFamily="Karla" FontSize="24" TextColor="#FF677D" HorizontalOptions="Center" VerticalOptions="End"></Label>
+
+            <ScrollView Grid.Row="1" MinimumHeightRequest="{Binding HobbyScrollMinHeight}" MaximumHeightRequest="{Binding HobbyScrollMaxHeight}">
+                <FlexLayout
+                    Direction="Row"
+                    Wrap="Wrap"
+                    JustifyContent="Start"
+                    AlignItems="Start"
+                    Margin="10,5,0,0"
+                    BindableLayout.ItemsSource="{Binding Hobbies}">
+
+                    <BindableLayout.ItemTemplate>
+                        <DataTemplate>
+                            <Border StrokeShape="RoundRectangle 15,15,15,15"
+                                    MinimumWidthRequest="40"
+                                    MaximumWidthRequest="200"
+                                    Background="#FFB3BA"
+                                    Margin="0,0,10,3">
+                                <Label Text="{Binding .}"
+                                       FontSize="16"
+                                       FontFamily="Karla"
+                                       TextColor="#392F5A"
+                                       Padding="5"/>
+                            </Border>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </FlexLayout>
+            </ScrollView>
+
+
+        </Grid>
+    </VerticalStackLayout>
+</ContentView>

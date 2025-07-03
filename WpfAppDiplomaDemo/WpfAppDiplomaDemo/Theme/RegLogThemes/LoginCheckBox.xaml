@@ -1,0 +1,36 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="LoginCheckBox" TargetType="CheckBox">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="CheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Border x:Name="Circle"
+                            Width="40"
+                                Height="40"
+                                CornerRadius="20"
+                                BorderBrush="#FFB3BA"
+                                BorderThickness="2"
+                                Background="Transparent"
+                                VerticalAlignment="Center"
+                                Margin="0,0,20,0">
+                            <Ellipse Fill="#FFB3BA" Visibility="Collapsed" x:Name="CheckedCircle" />
+                        </Border>
+
+                        <!-- Text next to the checkbox -->
+                        <TextBlock Text="{TemplateBinding Content}"
+                                   Foreground="#392F5A"
+                                   FontSize="36"
+                                   VerticalAlignment="Center" />
+                    </StackPanel>
+                    <ControlTemplate.Triggers>
+                        <!-- Trigger for checked state -->
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="CheckedCircle" Property="Visibility" Value="Visible" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

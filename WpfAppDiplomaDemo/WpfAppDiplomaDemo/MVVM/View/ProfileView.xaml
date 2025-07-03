@@ -1,0 +1,114 @@
+﻿<UserControl x:Class="WpfAppDiplomaDemo.MVVM.View.ProfileView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfAppDiplomaDemo.MVVM.View"
+             mc:Ignorable="d" 
+             xmlns:views="clr-namespace:WpfAppDiplomaDemo.MVVM.View"
+             xmlns:viewmodels="clr-namespace:WpfAppDiplomaDemo.MVVM.ViewModel"
+             d:DesignHeight="1024" d:DesignWidth="1440">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="70px"></ColumnDefinition>
+            <ColumnDefinition Width="500px"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="70px"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="29px"></RowDefinition>
+            <RowDefinition Height="500px"></RowDefinition>
+            <RowDefinition Height="80px"></RowDefinition>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="0" Grid.RowSpan="6" Background="#F9F9F9" Opacity="0.95"></Grid>
+        <Grid Grid.Row="0" Grid.Column="4" Grid.RowSpan="6" Background="#F9F9F9" Opacity="0.95"></Grid>
+        <Grid Grid.Row="0" Grid.RowSpan="6" Grid.Column="1" Grid.ColumnSpan="3" Background="#F9F9F9"></Grid>
+        <Image Grid.Column="1" Grid.Row="1" Source="/Images/DemoProfilePick.png"  Width="500px" Height="500px" Stretch="Fill"/>
+        <Grid Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="86"></RowDefinition>
+                <RowDefinition Height="140"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="36"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <ContentControl Grid.Column="0" Grid.ColumnSpan="3" Style="{StaticResource TextField}"  Height="79px" Width="366px" Content="{Binding Nickname}" FontSize="50" VerticalAlignment="Top"/>
+            <ContentControl Grid.Column="0" Grid.Row="1" Style="{StaticResource TextField}"  Height="60px" Width="280px" Content="{Binding FirstName}" FontSize="40"/>
+            <ContentControl Grid.Column="1" Grid.Row="1" Style="{StaticResource TextField}"  Height="60px" Width="280px" Content="{Binding LastName}" FontSize="40"/>
+
+            <StackPanel Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3" Orientation="Horizontal">
+                <ContentControl Style="{StaticResource TextField}"  Height="36px" Width="138px" Content="{Binding Country}" FontSize="20" Margin="60,0,0,0"/>
+                <ContentControl Style="{StaticResource TextField}"  Height="36px" Width="40px" Content="{Binding Age}" FontSize="20" Margin="180,0,0,0"/>
+                <ContentControl Style="{StaticResource TextField}"  Height="36px" Width="100px" Content="{Binding Gender}" FontSize="20" Margin="220,0,0,0"/>
+            </StackPanel>
+            <StackPanel Grid.Column="0" Grid.Row="2" Orientation="Vertical">
+                <ContentControl Style="{StaticResource TextField}" Height="40" Width="280" Content="Languages Spoken" FontSize="25"/>
+                <ItemsControl ItemsSource="{Binding LanguagesSpoken}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                                <ContentControl Style="{StaticResource LanguageTextField}" Width="190" Content="{Binding Key}" Margin="60,0,0,0"/>
+                                <ContentControl Style="{StaticResource LanguageTextField}" Width="43" Content="{Binding Value}" Margin="50,0,0,0"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Grid.Row="2" Orientation="Vertical">
+                <ContentControl Style="{StaticResource TextField}" Height="40" Width="280" Content="Languages Learning" FontSize="25"/>
+                <ItemsControl ItemsSource="{Binding LanguagesLearning}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                                <ContentControl Style="{StaticResource LanguageTextField}" Width="190" Content="{Binding Key}" Margin="60,0,0,0"/>
+                                <ContentControl Style="{StaticResource LanguageTextField}" Width="43" Content="{Binding Value}" Margin="50,0,0,0"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+
+        </Grid>
+        <StackPanel Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" Orientation="Horizontal" VerticalAlignment="Center">
+            <ItemsControl ItemsSource="{Binding Hobbies}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <ContentControl Style="{StaticResource HobbyTextBox}" 
+                                Content="{Binding}" 
+                                Foreground="#392F5A" 
+                                Background="#FFB3BA"
+                                Margin="5,0,0,0"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+            </StackPanel>
+
+            <ContentControl Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" Style="{StaticResource BigTextField}" Width="1300px" HorizontalAlignment="Left" Height="103" Content="{Binding Description}" FontSize="20"></ContentControl>
+        <ContentControl Grid.Column="1" Grid.Row="4" Style="{StaticResource TextField}" Width="138" Height="37" HorizontalAlignment="Left" Content="{Binding MbtiType}" FontSize="24"></ContentControl>
+        <ContentControl VerticalAlignment="Top" Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="3" Style="{StaticResource BigTextField}" Width="1300px" HorizontalAlignment="Left" Height="103" Content="{Binding MbtiTypeDescription}" FontSize="20"></ContentControl>
+
+        <views:BottomMenuView 
+    Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="3"
+    HorizontalAlignment="Center"
+    Height="60"
+    VerticalAlignment="Bottom"
+    DataContext="{Binding BottomMenuVM}" />
+        
+    </Grid>
+</UserControl>

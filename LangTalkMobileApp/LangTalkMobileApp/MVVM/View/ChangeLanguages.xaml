@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LangTalkMobileApp.MVVM.View.ChangeLanguagesPage"
+             Shell.NavBarIsVisible="False"
+             Title="ChangeLanguages">
+    <VerticalStackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="200"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid BackgroundColor="#FFB3BA" HeightRequest="100" VerticalOptions="Start"></Grid>
+                <Grid HeightRequest="30" Background="#FFB3BA" VerticalOptions="Start" Opacity="0.8">
+                    <Grid HeightRequest="20" WidthRequest="20" HorizontalOptions="Start" Margin="30">
+                        <Image Source="back_icon.png"></Image>
+                    </Grid>
+
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding OnProfileCommand}"/>
+                    </Grid.GestureRecognizers>
+                </Grid>
+
+                <Border WidthRequest="130"
+             HeightRequest="130"
+             VerticalOptions="Center"
+             HorizontalOptions="Center"
+             Background="#F9F9F9"
+             StrokeShape="RoundRectangle 120">
+
+                    <Image Source="default_profile_image.jpg"
+                 Aspect="AspectFill"
+                 WidthRequest="120"
+                 HeightRequest="120"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center">
+                        <Image.Clip>
+                            <EllipseGeometry Center="60,60" RadiusX="60" RadiusY="60"/>
+                        </Image.Clip>
+                    </Image>
+                </Border>
+
+                <Label Text="Change Languages" FontFamily="Karla" FontSize="18" VerticalOptions="End" HorizontalOptions="Center" Margin="0,0,0,10"></Label>
+
+            </Grid>
+
+            <ScrollView Grid.Row="1"
+                    HeightRequest="450">
+                <VerticalStackLayout>
+
+
+
+                    <CollectionView ItemsSource="{Binding Languages}">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid HeightRequest="50" Padding="10">
+                                    <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+
+                                        <CheckBox 
+                        IsChecked="{Binding IsSelected, Mode=TwoWay}"
+                        Color="#F4AAB9" 
+                        BackgroundColor="Transparent"
+                        WidthRequest="40"
+                        HeightRequest="40"/>
+
+                                        <Label 
+                        Text="{Binding LanguageName}" 
+                        FontSize="15" 
+                        TextColor="#392F5A" 
+                        FontFamily="Karla" 
+                        VerticalOptions="Center"/>
+
+                                        <CheckBox 
+                        IsChecked="{Binding IsSpoken, Mode=TwoWay}"
+                        IsEnabled="{Binding CanSelectIsSpoken}"
+                        Color="#F4AAB9" 
+                        BackgroundColor="Transparent"
+                        WidthRequest="40"
+                        HeightRequest="40"
+                        VerticalOptions="Center"/>
+
+                                        <Label 
+                        Text="Is Spoken" 
+                        FontSize="15" 
+                        TextColor="#392F5A" 
+                        FontFamily="Karla" 
+                        VerticalOptions="Center"/>
+
+                                        <Label 
+                        Text="Level" 
+                        FontSize="15" 
+                        TextColor="#392F5A" 
+                        FontFamily="Karla" 
+                        VerticalOptions="Center" 
+                        Margin="20,0,0,0"/>
+
+                                        <Picker
+                        ItemsSource="{Binding Levels}"
+                        SelectedItem="{Binding Level, Mode=TwoWay}"
+                        IsEnabled="{Binding CanEditLevel}"
+                        TextColor="#392F5A"
+                        HeightRequest="50"
+                        BackgroundColor="Transparent"
+                        FontSize="20" 
+                        FontFamily="Karla"/>
+                                    </HorizontalStackLayout>
+                                </Grid>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                    
+                    
+                </VerticalStackLayout>
+
+            </ScrollView>
+
+            <Button 
+                Grid.Row="2"
+HeightRequest="50" 
+WidthRequest="300" 
+Text="Change Languages" 
+FontSize="20"  
+CornerRadius="40" 
+Background="#D4A5A5" 
+TextColor="#392F5A" 
+FontFamily="Karla" 
+FontAttributes="Bold"
+                Command="{Binding UpdateLanguagesCommand}"/>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

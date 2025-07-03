@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LangTalkMobileApp", "LangTalkMobileApp\LangTalkMobileApp.csproj", "{FAB881FF-E4EC-4FAE-975F-159C29237563}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAB881FF-E4EC-4FAE-975F-159C29237563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB881FF-E4EC-4FAE-975F-159C29237563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB881FF-E4EC-4FAE-975F-159C29237563}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FAB881FF-E4EC-4FAE-975F-159C29237563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB881FF-E4EC-4FAE-975F-159C29237563}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D71B84D-CA5A-4A23-BC30-23FD2B0CE841}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LangTalkMobileApp.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Button
+                Text="Login View"
+                Command="{Binding ChangeOnLoginViewCommand}"
+                HorizontalOptions="Fill" />
+
+            <Button 
+                Text="Registration View"
+                Command="{Binding ChangeOnRegistrationViewCommand}"
+                HorizontalOptions="Fill"/>
+
+            <Button
+                Text="Profile View"
+                Command="{Binding ChangeOnProfileViewCommand}"
+                HorizontalOptions="Fill"/>
+
+            <Button
+                Text="Change Profile View"
+                Command="{Binding ChangeOnChangeProfileViewCommand}"
+                HorizontalOptions="Fill"/>
+
+            <Button
+                Text="Change Mbti Type View"
+                Command="{Binding ChangeOnChangeMbtiTypeViewCommand}"
+                HorizontalOptions="Fill"/>
+
+            <Button
+                Text="Change Hobbies View"
+                Command="{Binding ChangeOnChangeHobbiesViewCommand}"
+                HorizontalOptions="Fill"/>
+
+            <Button
+                Text="Chats View"
+                Command="{Binding ChangeOnChatsViewCommand}"
+                HorizontalOptions="Fill"/>
+
+            <Button
+                Text="Chat View"
+                Command="{Binding ChangeOnChatViewCommand}"
+                HorizontalOptions="Fill"/>
+
+            <Button
+                Text="Select People View"
+                Command="{Binding ChangeOnSelectPeopleViewCommand}"
+                HorizontalOptions="Fill"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

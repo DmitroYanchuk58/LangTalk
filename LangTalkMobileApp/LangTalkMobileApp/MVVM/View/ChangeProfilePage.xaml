@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LangTalkMobileApp.MVVM.View.ChangeProfilePage"
+             xmlns:elements="clr-namespace:LangTalkMobileApp.DesignElements"
+             Title="ChangeProfilePage"
+             Shell.NavBarIsVisible="False">
+    <Grid RowDefinitions="*,Auto" Background="#F9F9F9">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="690"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid BackgroundColor="#FFB3BA" HeightRequest="100" VerticalOptions="Start"></Grid>
+                <Grid HeightRequest="30" Background="#FFB3BA" VerticalOptions="Start" Opacity="0.8">
+                    <Grid HeightRequest="20" WidthRequest="20" HorizontalOptions="Start" Margin="30">
+                        <Image Source="back_icon.png"></Image>
+                    </Grid>
+
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding OnProfileCommand}"/>
+                    </Grid.GestureRecognizers>
+                </Grid>
+
+                <Border WidthRequest="130"
+                        HeightRequest="130"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        Background="#F9F9F9"
+                        StrokeShape="RoundRectangle 120">
+
+                    <Image Source="{Binding DisplayedImage}"
+                            Aspect="AspectFill"
+                            WidthRequest="120"
+                            HeightRequest="120"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center">
+
+                        <Image.Clip>
+                            <EllipseGeometry Center="60,60" RadiusX="60" RadiusY="60"/>
+                        </Image.Clip>
+
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding ChangeAddImageVisibilityCommand}" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Border>
+
+
+                <Grid WidthRequest="30" HeightRequest="30" VerticalOptions="Center" HorizontalOptions="Center" x:Name="AddImageIcon" IsVisible="{Binding IsAddImageVisible}" IsEnabled="{Binding IsAddImageVisible}">
+
+                    <Image Source="add_icon.png"></Image>
+
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding PickPhotoCommand}" />
+                    </Grid.GestureRecognizers>
+                </Grid>
+
+                <Label Text="Change Profile" FontFamily="Karla" FontSize="18" VerticalOptions="End" HorizontalOptions="Center" Margin="0,0,0,10"></Label>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="120"/>
+                    <RowDefinition Height="80"/>
+                </Grid.RowDefinitions>
+                <Border
+                    Margin="15,0,0,0"
+                    Grid.Row="0"
+       StrokeThickness="0"
+       Background="#FFB3BA"
+       HeightRequest="50"
+       WidthRequest="360"
+       StrokeShape="RoundRectangle 30"
+       Padding="10">
+
+                    <Entry
+           Text="{Binding FirstName}"
+           Placeholder="First Name"
+           PlaceholderColor="#392F5A"
+           TextColor="#392F5A"
+           HeightRequest="50"
+           BackgroundColor="Transparent"
+           FontSize="18" 
+           FontFamily="Karla"/>
+                </Border>
+
+                
+                
+                <Border
+             Margin="15,0,0,0"
+             Grid.Row="1"
+StrokeThickness="0"
+Background="#FFB3BA"
+HeightRequest="50"
+WidthRequest="360"
+StrokeShape="RoundRectangle 30"
+Padding="10">
+
+                    <Entry
+    Text="{Binding LastName}"
+    Placeholder="Last Name"
+    PlaceholderColor="#392F5A"
+    TextColor="#392F5A"
+    HeightRequest="50"
+    BackgroundColor="Transparent"
+    FontSize="18" 
+    FontFamily="Karla"/>
+                </Border>
+
+                <Border
+             Margin="15,0,0,0"
+             Grid.Row="2"
+StrokeThickness="0"
+Background="#FFB3BA"
+HeightRequest="50"
+WidthRequest="360"
+StrokeShape="RoundRectangle 30"
+Padding="10">
+
+                    <Entry
+    Text="{Binding Age}"
+    Placeholder="Age"
+    PlaceholderColor="#392F5A"
+    TextColor="#392F5A"
+    HeightRequest="50"
+    BackgroundColor="Transparent"
+    FontSize="18" 
+    FontFamily="Karla"/>
+                </Border>
+
+                <Border Grid.Row="3"
+        StrokeThickness="0"
+        Background="#FFB3BA"
+        HeightRequest="50"
+        WidthRequest="360"
+        StrokeShape="RoundRectangle 30"
+        Margin="15,0,0,0"
+       Padding="10">
+
+                    <Picker
+    Title="Select Country"
+    ItemsSource="{Binding Countries}"
+    SelectedItem="{Binding Country}"
+    TextColor="#392F5A"
+    HeightRequest="50"
+    BackgroundColor="Transparent"
+    FontSize="18"
+    FontFamily="Karla"/>
+                </Border>
+
+                <Border Grid.Row="4"
+                    StrokeThickness="0"
+                    Background="#FFB3BA"
+                    HeightRequest="110"
+                    WidthRequest="360"
+                    StrokeShape="RoundRectangle 30"
+                    Margin="15,0,0,0"
+                    Padding="10">
+
+                    <Editor 
+                        Text="{Binding Description}"
+                        Placeholder="Description"
+                        PlaceholderColor="#392F5A"
+                        TextColor="#392F5A"
+                        HeightRequest="100"
+                        BackgroundColor="Transparent"
+                        FontSize="18" 
+                        FontFamily="Karla"/>
+                </Border>
+
+                <Button 
+                    Grid.Row="6"
+    HeightRequest="50" 
+    WidthRequest="260" 
+    Text="Update profile" 
+    FontSize="18"  
+    CornerRadius="40" 
+    Background="#D4A5A5" 
+    TextColor="#392F5A" 
+    FontFamily="Karla" 
+    FontAttributes="Bold" 
+    Command="{Binding UpdateProfileCommand}"/>
+            </Grid>
+        </Grid>
+
+    </Grid>
+</ContentPage>

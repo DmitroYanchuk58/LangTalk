@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Name="Root"
+             x:Class="LangTalkMobileApp.DesignElements.RoundedBrownButton">
+    <VerticalStackLayout>
+        <Button 
+            HeightRequest="{Binding BoxHeight, Source={x:Reference Root}}" 
+            WidthRequest="{Binding BoxWidth, Source={x:Reference Root}}" 
+            Text="{Binding Text, Source={x:Reference Root}}" 
+            FontSize="{Binding FontSize, Source={x:Reference Root}}"  
+            CornerRadius="40" 
+            Background="#D4A5A5" 
+            TextColor="#392F5A" 
+            FontFamily="Karla" 
+            FontAttributes="Bold" 
+            Command="{Binding Command, Source={x:Reference Root}}"/>
+    </VerticalStackLayout>
+</ContentView>

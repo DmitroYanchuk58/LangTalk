@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LangTalkMobileApp</name>
+    </assembly>
+    <members>
+        <member name="T:LangTalkMobileApp.MainPage">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:LangTalkMobileApp.MainPage.changeOnLoginViewCommand">
+            <summary>The backing field for <see cref="P:LangTalkMobileApp.MainPage.ChangeOnLoginViewCommand"/>.</summary>
+        </member>
+        <member name="P:LangTalkMobileApp.MainPage.ChangeOnLoginViewCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LangTalkMobileApp.MainPage.ChangeOnLoginView"/>.</summary>
+        </member>
+        <member name="F:LangTalkMobileApp.MainPage.changeOnRegistrationViewCommand">
+            <summary>The backing field for <see cref="P:LangTalkMobileApp.MainPage.ChangeOnRegistrationViewCommand"/>.</summary>
+        </member>
+        <member name="P:LangTalkMobileApp.MainPage.ChangeOnRegistrationViewCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LangTalkMobileApp.MainPage.ChangeOnRegistrationView"/>.</summary>
+        </member>
+        <member name="F:LangTalkMobileApp.MainPage.changeOnProfileViewCommand">
+            <summary>The backing field for <see cref="P:LangTalkMobileApp.MainPage.ChangeOnProfileViewCommand"/>.</summary>
+        </member>
+        <member name="P:LangTalkMobileApp.MainPage.ChangeOnProfileViewCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LangTalkMobileApp.MainPage.ChangeOnProfileView"/>.</summary>
+        </member>
+        <member name="F:LangTalkMobileApp.MainPage.changeOnChangeProfileViewCommand">
+            <summary>The backing field for <see cref="P:LangTalkMobileApp.MainPage.ChangeOnChangeProfileViewCommand"/>.</summary>
+        </member>
+        <member name="P:LangTalkMobileApp.MainPage.ChangeOnChangeProfileViewCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LangTalkMobileApp.MainPage.ChangeOnChangeProfileView"/>.</summary>
+        </member>
+        <member name="F:LangTalkMobileApp.MainPage.changeOnChangeMbtiTypeViewCommand">
+            <summary>The backing field for <see cref="P:LangTalkMobileApp.MainPage.ChangeOnChangeMbtiTypeViewCommand"/>.</summary>
+        </member>
+        <member name="P:LangTalkMobileApp.MainPage.ChangeOnChangeMbtiTypeViewCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LangTalkMobileApp.MainPage.ChangeOnChangeMbtiTypeView"/>.</summary>
+        </member>
+        <member name="F:LangTalkMobileApp.MainPage.changeOnChangeHobbiesViewCommand">
+            <summary>The backing field for <see cref="P:LangTalkMobileApp.MainPage.ChangeOnChangeHobbiesViewCommand"/>.</summary>
+        </member>
+        <member name="P:LangTalkMobileApp.MainPage.ChangeOnChangeHobbiesViewCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LangTalkMobileApp.MainPage.ChangeOnChangeHobbiesView"/>.</summary>
+        </member>
+        <member name="F:LangTalkMobileApp.MainPage.changeOnChatsViewCommand">
+            <summary>The backing field for <see cref="P:LangTalkMobileApp.MainPage.ChangeOnChatsViewCommand"/>.</summary>
+        </member>
+        <member name="P:LangTalkMobileApp.MainPage.ChangeOnChatsViewCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LangTalkMobileApp.MainPage.ChangeOnChatsView"/>.</summary>
+        </member>
+        <member name="F:LangTalkMobileApp.MainPage.changeOnChatViewCommand">
+            <summary>The backing field for <see cref="P:LangTalkMobileApp.MainPage.ChangeOnChatViewCommand"/>.</summary>
+        </member>
+        <member name="P:LangTalkMobileApp.MainPage.ChangeOnChatViewCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LangTalkMobileApp.MainPage.ChangeOnChatView"/>.</summary>
+        </member>
+        <member name="F:LangTalkMobileApp.MainPage.changeOnSelectPeopleViewCommand">
+            <summary>The backing field for <see cref="P:LangTalkMobileApp.MainPage.ChangeOnSelectPeopleViewCommand"/>.</summary>
+        </member>
+        <member name="P:LangTalkMobileApp.MainPage.ChangeOnSelectPeopleViewCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LangTalkMobileApp.MainPage.ChangeOnSelectPeopleView"/>.</summary>
+        </member>
+        <member name="T:LangTalkMobileApp.MVVM.ViewModel.RegistrationViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:LangTalkMobileApp.MVVM.ViewModel.RegistrationViewModel.changeOnRegistrationViewCommand">
+            <summary>The backing field for <see cref="P:LangTalkMobileApp.MVVM.ViewModel.RegistrationViewModel.ChangeOnRegistrationViewCommand"/>.</summary>
+        </member>
+        <member name="P:LangTalkMobileApp.MVVM.ViewModel.RegistrationViewModel.ChangeOnRegistrationViewCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LangTalkMobileApp.MVVM.ViewModel.RegistrationViewModel.ChangeOnRegistrationView"/>.</summary>
+        </member>
+        <member name="F:LangTalkMobileApp.MVVM.ViewModel.RegistrationViewModel.registerCommand">
+            <summary>The backing field for <see cref="P:LangTalkMobileApp.MVVM.ViewModel.RegistrationViewModel.RegisterCommand"/>.</summary>
+        </member>
+        <member name="P:LangTalkMobileApp.MVVM.ViewModel.RegistrationViewModel.RegisterCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LangTalkMobileApp.MVVM.ViewModel.RegistrationViewModel.Register"/>.</summary>
+        </member>
+        <member name="F:LangTalkMobileApp.MVVM.ViewModel.RegistrationViewModel.changeOnLoginViewCommand">
+            <summary>The backing field for <see cref="P:LangTalkMobileApp.MVVM.ViewModel.RegistrationViewModel.ChangeOnLoginViewCommand"/>.</summary>
+        </member>
+        <member name="P:LangTalkMobileApp.MVVM.ViewModel.RegistrationViewModel.ChangeOnLoginViewCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LangTalkMobileApp.MVVM.ViewModel.RegistrationViewModel.ChangeOnLoginView"/>.</summary>
+        </member>
+        <member name="T:LangTalkMobileApp.MVVM.ViewModel.SortPeopleParametrsViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:LangTalkMobileApp.MVVM.ViewModel.SortPeopleParametrsViewModel.Languages">
+            <inheritdoc cref="F:LangTalkMobileApp.MVVM.ViewModel.SortPeopleParametrsViewModel.languages"/>
+        </member>
+        <member name="P:LangTalkMobileApp.MVVM.ViewModel.SortPeopleParametrsViewModel.Hobbies">
+            <inheritdoc cref="F:LangTalkMobileApp.MVVM.ViewModel.SortPeopleParametrsViewModel.hobbies"/>
+        </member>
+        <member name="P:LangTalkMobileApp.MVVM.ViewModel.SortPeopleParametrsViewModel.MbtiTypes">
+            <inheritdoc cref="F:LangTalkMobileApp.MVVM.ViewModel.SortPeopleParametrsViewModel.mbtiTypes"/>
+        </member>
+        <member name="P:LangTalkMobileApp.MVVM.ViewModel.SortPeopleParametrsViewModel.Countries">
+            <inheritdoc cref="F:LangTalkMobileApp.MVVM.ViewModel.SortPeopleParametrsViewModel.countries"/>
+        </member>
+        <member name="P:LangTalkMobileApp.MVVM.ViewModel.SortPeopleParametrsViewModel.Genders">
+            <inheritdoc cref="F:LangTalkMobileApp.MVVM.ViewModel.SortPeopleParametrsViewModel.genders"/>
+        </member>
+        <member name="P:LangTalkMobileApp.MVVM.ViewModel.SortPeopleParametrsViewModel.IsBusy">
+            <inheritdoc cref="F:LangTalkMobileApp.MVVM.ViewModel.SortPeopleParametrsViewModel.isBusy"/>
+        </member>
+        <member name="P:LangTalkMobileApp.MVVM.ViewModel.SortPeopleParametrsViewModel.ErrorMessage">
+            <inheritdoc cref="F:LangTalkMobileApp.MVVM.ViewModel.SortPeopleParametrsViewModel.errorMessage"/>
+        </member>
+        <member name="T:LangTalkMobileApp.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="T:LoginViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:LoginViewModel.changeOnRegistrationViewCommand">
+            <summary>The backing field for <see cref="P:LoginViewModel.ChangeOnRegistrationViewCommand"/>.</summary>
+        </member>
+        <member name="P:LoginViewModel.ChangeOnRegistrationViewCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LoginViewModel.ChangeOnRegistrationView"/>.</summary>
+        </member>
+        <member name="F:LoginViewModel.loginCommand">
+            <summary>The backing field for <see cref="P:LoginViewModel.LoginCommand"/>.</summary>
+        </member>
+        <member name="P:LoginViewModel.LoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LoginViewModel.Login"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Languages">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Languages" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Hobbies">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Hobbies" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.MbtiTypes">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "MbtiTypes" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Countries">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Countries" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Genders">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Genders" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ErrorMessage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ErrorMessage" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Languages">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Languages" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Hobbies">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Hobbies" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.MbtiTypes">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "MbtiTypes" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Countries">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Countries" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Genders">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Genders" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ErrorMessage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ErrorMessage" generated properties.</summary>
+        </member>
+    </members>
+</doc>

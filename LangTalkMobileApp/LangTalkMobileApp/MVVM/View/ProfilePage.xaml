@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LangTalkMobileApp.MVVM.View.ProfilePage"
+             xmlns:bottomMenuElement="clr-namespace:LangTalkMobileApp.DesignElements"
+             xmlns:profileElement="clr-namespace:LangTalkMobileApp.DesignElements.ProfileElements"
+             Title="ProfileView"
+             Shell.NavBarIsVisible="False">
+
+
+    <Grid RowDefinitions="*,Auto" Background="#F9F9F9">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="400"/>
+                <RowDefinition Height="34"/>
+                <RowDefinition Height="15" />
+                <RowDefinition Height="3"/>
+                <RowDefinition Height="1"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Image Grid.Row="0" Source="{Binding DisplayedImage}" Aspect="AspectFill"/>
+
+            <Grid Grid.Row="1">
+                <HorizontalStackLayout>
+                    <Label Text="{Binding FullName}" FontFamily="Karla" FontSize="24" TextColor="#FF677D" Margin="20,0,0,0" VerticalOptions="Center"/>
+                    <Label Text="{Binding Age}" FontFamily="Karla" FontSize="22" TextColor="#392F5A" Margin="20,0,0,0" VerticalOptions="Center"/>
+                </HorizontalStackLayout>
+            </Grid>
+
+            <Grid Grid.Row="2">
+                <Label Text="{Binding Country}" FontFamily="Karla" FontSize="14" TextColor="#392F5A" Margin="20,0,0,0" VerticalOptions="Center"/>
+                <Label Text="{Binding Gender}" FontFamily="Karla" FontSize="14" TextColor="#392F5A" VerticalOptions="Center" Margin="350,0,0,0"/>
+            </Grid>
+
+            <Grid Background="#392F5A" Grid.Row="4"/>
+
+            <profileElement:DescriptionPart Grid.Row="5" Description="{Binding Description}" IsEnabled="{Binding IsInfoActive}" IsVisible="{Binding IsInfoActive}"/>
+
+            <profileElement:MbtiPart Grid.Row="6" MbtiType="{Binding MbtiType}" MbtiDescription="{Binding MbtiDescription}" IsEnabled="{Binding IsInfoActive}" IsVisible="{Binding IsInfoActive}"/>
+
+            <profileElement:LanguagePart Grid.Row="5" IsEnabled="{Binding IsHobbiesActive}" IsVisible="{Binding IsHobbiesActive}" SpokenLanguages="{Binding SpokenLanguages}" LearningLanguages="{Binding LearningLanguages}"/>
+
+            <profileElement:HobbyPart Grid.Row="6" IsEnabled="{Binding IsHobbiesActive}" IsVisible="{Binding IsHobbiesActive}" Hobbies="{Binding Hobbies}"/>
+
+        </Grid>
+
+        <Grid VerticalOptions="End"   HeightRequest="48" Margin="0,70,0,0">
+            <Border BackgroundColor="White"
+         WidthRequest="412"
+         HeightRequest="48"
+         StrokeShape="RoundRectangle 50,50,0,0">
+
+
+                <Border.Shadow>
+                    <Shadow
+             Brush="#FF677D"
+             Offset="0,0"
+             Radius="5"
+             Opacity="0.4"/>
+                </Border.Shadow>
+
+            </Border>
+
+
+            <HorizontalStackLayout Spacing="90" HorizontalOptions="Center">
+                <Grid>
+                    <Border WidthRequest="40" HeightRequest="40" Background="#D4A5A5" StrokeShape="RoundRectangle 15,15,15,15">
+                        <Button
+                     WidthRequest="40"
+                     HeightRequest="40"
+                     BackgroundColor="#D4A5A5"
+                     CornerRadius="20"
+                     Padding="0"
+                     BorderWidth="0"
+                     ImageSource="search_icon.png"
+                     Command="{Binding OnSelectPeopleCommand}"/>
+
+
+                    </Border>
+                </Grid>
+                <Grid>
+                    <Border WidthRequest="40" HeightRequest="40" Background="#D4A5A5" StrokeShape="RoundRectangle 15,15,15,15">
+                        <Button
+                     WidthRequest="40"
+                     HeightRequest="40"
+                     BackgroundColor="#D4A5A5"
+                     CornerRadius="20"
+                     Padding="0"
+                     BorderWidth="0"
+                     ImageSource="profile_icon.png"
+                     Command="{Binding OnProfileCommand}"/>
+                    </Border>
+                </Grid>
+                <Grid>
+                    <Border WidthRequest="40" HeightRequest="40" Background="#D4A5A5" StrokeShape="RoundRectangle 15,15,15,15">
+                        <Button
+                     WidthRequest="40"
+                     HeightRequest="40"
+                     BackgroundColor="#D4A5A5"
+                     CornerRadius="20"
+                     Padding="0"
+                     BorderWidth="0"
+                     ImageSource="chats_icon.png"
+                     Command="{Binding OnChatsCommand}" />
+
+                    </Border>
+                </Grid>
+            </HorizontalStackLayout>
+        </Grid>
+
+        <Grid WidthRequest="100" HeightRequest="20" Margin="260,130,0,0">
+            <Border StrokeShape="RoundRectangle 20">
+                <HorizontalStackLayout>
+                    <Grid WidthRequest="30" Background="{Binding InfoColor}" HorizontalOptions="Start">
+                        <Label Text="Info" FontSize="14" HorizontalOptions="Center" TextColor="#392F5A" FontFamily="Karla"/>
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding ShowInfoCommand}"/>
+                        </Grid.GestureRecognizers>
+                    </Grid>
+                    <Grid WidthRequest="70" Background="{Binding HobbyColor}" HorizontalOptions="End">
+                        <Label Text="Hobbies" FontSize="14" HorizontalOptions="Center" TextColor="#392F5A" FontFamily="Karla"/>
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding ShowHobbiesCommand}"/>
+                        </Grid.GestureRecognizers>
+                    </Grid>
+                </HorizontalStackLayout>
+            </Border>
+        </Grid>
+
+        <Grid HeightRequest="30" Background="#FFB3BA" VerticalOptions="Start" Opacity="0.8">
+            <Grid HeightRequest="20" WidthRequest="20" HorizontalOptions="End" Margin="30">
+                <Image Source="change_profile_icon.png"></Image>
+
+                <Grid.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding OnChangeProfileCommand}"/>
+                </Grid.GestureRecognizers>
+            </Grid>
+
+            <Grid HorizontalOptions="End" Margin="0,0,80,0" VerticalOptions="Center">
+                <Label Text="Change Hobbies"></Label>
+
+                <Grid.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding OnChangeHobbiesCommand}"/>
+                </Grid.GestureRecognizers>
+            </Grid>
+
+            <Grid HorizontalOptions="End" Margin="0,0,200,0" VerticalOptions="Center">
+                <Label Text="Change Mbti Type">
+                    
+                </Label>
+
+                <Grid.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding OnChangeMbtiTypeCommand}"/>
+                </Grid.GestureRecognizers>
+            </Grid>
+
+            <Grid HorizontalOptions="End" Margin="0,0,320,0" VerticalOptions="Center">
+                <Label Text="Languages">
+
+                </Label>
+
+                <Grid.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding OnChangeLanguagesCommand}"/>
+                </Grid.GestureRecognizers>
+            </Grid>
+        </Grid>
+
+
+    </Grid>
+</ContentPage>

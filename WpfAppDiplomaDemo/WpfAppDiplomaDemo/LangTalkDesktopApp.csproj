@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\AlgorithmIcon.png" />
+    <None Remove="Icons\ChatIcon.png" />
+    <None Remove="Icons\ChatsIcon.png" />
+    <None Remove="Icons\CreateIcon.png" />
+    <None Remove="Icons\LikeIcon.png" />
+    <None Remove="Icons\ProfileIcon.png" />
+    <None Remove="Icons\SkipIcon.png" />
+    <None Remove="Icons\SuperLikeIcon.png" />
+    <None Remove="Images\DemoProfilePick.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="10.0.0-preview.4.25258.110" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\AlgorithmIcon.png" />
+    <Resource Include="Icons\ChatIcon.png" />
+    <Resource Include="Icons\ChatsIcon.png" />
+    <Resource Include="Icons\CreateIcon.png" />
+    <Resource Include="Icons\LikeIcon.png" />
+    <Resource Include="Icons\ProfileIcon.png" />
+    <Resource Include="Icons\SkipIcon.png" />
+    <Resource Include="Icons\SuperLikeIcon.png" />
+    <Resource Include="Images\DemoProfilePick.png" />
+  </ItemGroup>
+
+</Project>

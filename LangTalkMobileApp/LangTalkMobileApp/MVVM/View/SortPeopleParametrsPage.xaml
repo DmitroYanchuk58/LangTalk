@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LangTalkMobileApp.MVVM.View.SortPeopleParametrsPage"
+             Title="SortPeopleParametrsPage"
+             Shell.NavBarIsVisible="False">
+    <VerticalStackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="130"/>
+                <RowDefinition Height="130"/>
+                <RowDefinition Height="130"/>
+                <RowDefinition Height="130"/>
+                <RowDefinition Height="130"/>
+                <RowDefinition Height="130"/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Background="#FFB3BA">
+                <Label Text="Set Parametrs For Search People" VerticalOptions="Center" HorizontalOptions="Center" FontSize="18" FontFamily="Karla" TextColor="#392F5A"></Label>
+            </Grid>
+            <Grid Grid.Row="1">
+                <VerticalStackLayout>
+                    <Grid HeightRequest="20">
+                        <Label Text="Countries" Margin="5,0,0,0" TextColor="#392F5A" FontSize="16" VerticalOptions="Center"></Label>
+                    </Grid>
+                <ScrollView HeightRequest="110">
+                    <VerticalStackLayout>
+                            <CollectionView ItemsSource="{Binding Countries}">
+                                <CollectionView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid>
+                                            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                                                <CheckBox 
+                        IsChecked="{Binding IsChecked}"
+                        Color="#F4AAB9"
+                        BackgroundColor="Transparent"
+                        WidthRequest="40"
+                        HeightRequest="40"/>
+                                                <Label 
+                        Text="{Binding Name}" 
+                        FontSize="15" 
+                        TextColor="#392F5A" 
+                        FontFamily="Karla" 
+                        VerticalOptions="Center"/>
+                                            </HorizontalStackLayout>
+                                        </Grid>
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
+                        </VerticalStackLayout>
+                 </ScrollView>
+                </VerticalStackLayout>
+            </Grid>
+            <Grid Grid.Row="2">
+                <VerticalStackLayout>
+                    <Grid HeightRequest="20">
+                        <Label Text="Mbti Types" Margin="5,0,0,0" TextColor="#392F5A" FontSize="16" VerticalOptions="Center"></Label>
+                    </Grid>
+                    <ScrollView HeightRequest="110">
+                        <VerticalStackLayout>
+                            <CollectionView ItemsSource="{Binding MbtiTypes}">
+                                <CollectionView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid>
+                                            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                                                <CheckBox 
+     IsChecked="{Binding IsChecked}"
+     Color="#F4AAB9"
+     BackgroundColor="Transparent"
+     WidthRequest="40"
+     HeightRequest="40"/>
+                                                <Label 
+     Text="{Binding Type}" 
+     FontSize="15" 
+     TextColor="#392F5A" 
+     FontFamily="Karla" 
+     VerticalOptions="Center"/>
+                                            </HorizontalStackLayout>
+                                        </Grid>
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
+                        </VerticalStackLayout>
+                    </ScrollView>
+                </VerticalStackLayout>
+            </Grid>
+            <Grid Grid.Row="3">
+                <VerticalStackLayout>
+                    <Grid HeightRequest="20">
+                        <Label Text="Hobbies" Margin="5,0,0,0" TextColor="#392F5A" FontSize="16" VerticalOptions="Center"></Label>
+                    </Grid>
+                    <ScrollView HeightRequest="110">
+                        <VerticalStackLayout>
+                            <CollectionView ItemsSource="{Binding Hobbies}">
+                                <CollectionView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid>
+                                            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                                                <CheckBox 
+IsChecked="{Binding IsChecked}"
+Color="#F4AAB9"
+BackgroundColor="Transparent"
+WidthRequest="40"
+HeightRequest="40"/>
+                                                <Label 
+Text="{Binding Name}" 
+FontSize="15" 
+TextColor="#392F5A" 
+FontFamily="Karla" 
+VerticalOptions="Center"/>
+                                            </HorizontalStackLayout>
+                                        </Grid>
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
+                        </VerticalStackLayout>
+                    </ScrollView>
+                </VerticalStackLayout>
+            </Grid>
+            <Grid Grid.Row="4">
+                <VerticalStackLayout>
+                    <Grid HeightRequest="20">
+                        <Label Text="Gender" Margin="5,0,0,0" TextColor="#392F5A" FontSize="16" VerticalOptions="Center"></Label>
+                    </Grid>
+                    <ScrollView HeightRequest="110">
+                        <VerticalStackLayout>
+                            <CollectionView ItemsSource="{Binding Genders}">
+                                <CollectionView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid>
+                                            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                                                <CheckBox 
+IsChecked="{Binding IsChecked}"
+Color="#F4AAB9"
+BackgroundColor="Transparent"
+WidthRequest="40"
+HeightRequest="40"/>
+                                                <Label 
+Text="{Binding Name}" 
+FontSize="15" 
+TextColor="#392F5A" 
+FontFamily="Karla" 
+VerticalOptions="Center"/>
+                                            </HorizontalStackLayout>
+                                        </Grid>
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
+                        </VerticalStackLayout>
+                    </ScrollView>
+                </VerticalStackLayout>
+            </Grid>
+            <Grid Grid.Row="5">
+                <VerticalStackLayout>
+                    <Grid HeightRequest="20">
+                        <Label Text="Languages" Margin="5,0,0,0" TextColor="#392F5A" FontSize="16" VerticalOptions="Center"></Label>
+                    </Grid>
+                    <ScrollView HeightRequest="110">
+                        <VerticalStackLayout>
+                            <CollectionView ItemsSource="{Binding Languages}">
+                                <CollectionView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid>
+                                            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                                                <CheckBox 
+IsChecked="{Binding IsChecked}"
+Color="#F4AAB9"
+BackgroundColor="Transparent"
+WidthRequest="40"
+HeightRequest="40"/>
+                                                <Label 
+Text="{Binding LanguageName}" 
+FontSize="15" 
+TextColor="#392F5A" 
+FontFamily="Karla" 
+VerticalOptions="Center"/>
+                                            </HorizontalStackLayout>
+                                        </Grid>
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
+                        </VerticalStackLayout>
+                    </ScrollView>
+                </VerticalStackLayout>
+            </Grid>
+            <Grid Grid.Row="6">
+                <Button 
+                    VerticalOptions="Center"
+            HeightRequest="50" 
+            WidthRequest="280" 
+            Text="Search" 
+            FontSize="24"  
+            CornerRadius="40" 
+            Background="#D4A5A5" 
+            TextColor="#392F5A" 
+            FontFamily="Karla" 
+            FontAttributes="Bold"
+            Command="{Binding SearchPeopleCommand}"/>
+            </Grid>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

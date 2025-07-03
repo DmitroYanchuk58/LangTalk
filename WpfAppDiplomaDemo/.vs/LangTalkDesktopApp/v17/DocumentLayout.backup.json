@@ -1,0 +1,453 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\mvvm\\viewmodel\\chatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\mvvm\\viewmodel\\chatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\mvvm\\view\\selectpeopleview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\mvvm\\view\\selectpeopleview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\mvvm\\model\\chatmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\mvvm\\model\\chatmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\command\\changeviewcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\command\\changeviewcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\signalr\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\signalr\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\mvvm\\view\\chatview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\mvvm\\view\\chatview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\command\\changingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\command\\changingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\mvvm\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\mvvm\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\mvvm\\model\\smallchatmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\mvvm\\model\\smallchatmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\mvvm\\model\\selectpeoplemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\mvvm\\model\\selectpeoplemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\mvvm\\model\\profilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\mvvm\\model\\profilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\mvvm\\model\\adduserlanguagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\mvvm\\model\\adduserlanguagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\jsonmodels\\connectioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\jsonmodels\\connectioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\jsonmodels\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\jsonmodels\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\jsonmodels\\mbtitype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\jsonmodels\\mbtitype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\jsonmodels\\userlanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\jsonmodels\\userlanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\mvvm\\model\\messagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\mvvm\\model\\messagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\jsonmodels\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\jsonmodels\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\httpcommands\\commands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\httpcommands\\commands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\httpcommands\\httpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\httpcommands\\httpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\mvvm\\viewmodel\\selectpeopleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\mvvm\\viewmodel\\selectpeopleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\mvvm\\view\\chatsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\mvvm\\view\\chatsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\mvvm\\view\\changeinfoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\mvvm\\view\\changeinfoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\mvvm\\view\\changechoiceview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\mvvm\\view\\changechoiceview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\mvvm\\view\\bottommenuview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\mvvm\\view\\bottommenuview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|e:\\code\\diploma\\wpfappdiplomademo\\wpfappdiplomademo\\mvvm\\view\\adduserlanguageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{62B01D81-1F54-4952-B0D5-964CD166E575}|WpfAppDiplomaDemo\\LangTalkDesktopApp.csproj|solutionrelative:wpfappdiplomademo\\mvvm\\view\\adduserlanguageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\Model\\ChatModel.cs",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\MVVM\\Model\\ChatModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\Model\\ChatModel.cs",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\MVVM\\Model\\ChatModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:13:41.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\MVVM\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\MVVM\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwMEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T22:27:22.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SelectPeopleView.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\View\\SelectPeopleView.xaml",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\MVVM\\View\\SelectPeopleView.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\View\\SelectPeopleView.xaml",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\MVVM\\View\\SelectPeopleView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-06T22:42:18.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChatView.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\View\\ChatView.xaml",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\MVVM\\View\\ChatView.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\View\\ChatView.xaml",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\MVVM\\View\\ChatView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-06T22:42:13.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChatViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\ViewModel\\ChatViewModel.cs",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\MVVM\\ViewModel\\ChatViewModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\ViewModel\\ChatViewModel.cs",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\MVVM\\ViewModel\\ChatViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T20:23:55.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserLanguage.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\JsonModels\\UserLanguage.cs",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\JsonModels\\UserLanguage.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\JsonModels\\UserLanguage.cs",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\JsonModels\\UserLanguage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:14:42.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MbtiType.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\JsonModels\\MbtiType.cs",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\JsonModels\\MbtiType.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\JsonModels\\MbtiType.cs",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\JsonModels\\MbtiType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:15:21.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Language.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\JsonModels\\Language.cs",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\JsonModels\\Language.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\JsonModels\\Language.cs",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\JsonModels\\Language.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:15:22.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Client.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\SignalR\\Client.cs",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\SignalR\\Client.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\SignalR\\Client.cs",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\SignalR\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T20:23:46.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChangeViewCommand.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\Command\\ChangeViewCommand.cs",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\Command\\ChangeViewCommand.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\Command\\ChangeViewCommand.cs",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\Command\\ChangeViewCommand.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAADwv4MAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T22:26:45.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MessageModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\Model\\MessageModel.cs",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\MVVM\\Model\\MessageModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\Model\\MessageModel.cs",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\MVVM\\Model\\MessageModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:14:06.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChangingSystem.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\Command\\ChangingSystem.cs",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\Command\\ChangingSystem.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\Command\\ChangingSystem.cs",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\Command\\ChangingSystem.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwDkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T22:26:50.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddUserLanguageModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\Model\\AddUserLanguageModel.cs",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\MVVM\\Model\\AddUserLanguageModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\Model\\AddUserLanguageModel.cs",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\MVVM\\Model\\AddUserLanguageModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:18:12.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProfileModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\Model\\ProfileModel.cs",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\MVVM\\Model\\ProfileModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\Model\\ProfileModel.cs",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\MVVM\\Model\\ProfileModel.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:18:41.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SelectPeopleModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\Model\\SelectPeopleModel.cs",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\MVVM\\Model\\SelectPeopleModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\Model\\SelectPeopleModel.cs",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\MVVM\\Model\\SelectPeopleModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:18:44.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\View\\LoginView.xaml",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\MVVM\\View\\LoginView.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\View\\LoginView.xaml",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\MVVM\\View\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-07T13:44:12.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SmallChatModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\Model\\SmallChatModel.cs",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\MVVM\\Model\\SmallChatModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\Model\\SmallChatModel.cs",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\MVVM\\Model\\SmallChatModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:18:55.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserInfo.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\JsonModels\\UserInfo.cs",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\JsonModels\\UserInfo.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\JsonModels\\UserInfo.cs",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\JsonModels\\UserInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:13:17.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HttpCommand.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\HttpCommands\\HttpCommand.cs",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\HttpCommands\\HttpCommand.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\HttpCommands\\HttpCommand.cs",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\HttpCommands\\HttpCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:11:07.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ChatsView.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\View\\ChatsView.xaml",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\MVVM\\View\\ChatsView.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\View\\ChatsView.xaml",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\MVVM\\View\\ChatsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-06T22:42:11.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ChangeInfoView.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\View\\ChangeInfoView.xaml",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\MVVM\\View\\ChangeInfoView.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\View\\ChangeInfoView.xaml",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\MVVM\\View\\ChangeInfoView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-06T22:42:10.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ChangeChoiceView.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\View\\ChangeChoiceView.xaml",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\MVVM\\View\\ChangeChoiceView.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\View\\ChangeChoiceView.xaml",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\MVVM\\View\\ChangeChoiceView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-06T22:42:08.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConnectionInfo.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\JsonModels\\ConnectionInfo.cs",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\JsonModels\\ConnectionInfo.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\JsonModels\\ConnectionInfo.cs",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\JsonModels\\ConnectionInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T22:27:02.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BottomMenuView.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\View\\BottomMenuView.xaml",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\MVVM\\View\\BottomMenuView.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\View\\BottomMenuView.xaml",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\MVVM\\View\\BottomMenuView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-06T22:42:06.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddUserLanguageView.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\View\\AddUserLanguageView.xaml",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\MVVM\\View\\AddUserLanguageView.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\View\\AddUserLanguageView.xaml",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\MVVM\\View\\AddUserLanguageView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-06T22:41:59.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Commands.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\HttpCommands\\Commands.cs",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\HttpCommands\\Commands.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\HttpCommands\\Commands.cs",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\HttpCommands\\Commands.cs",
+              "ViewState": "AgIAAEABAAAAAAAAAAAAAHgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T20:24:41.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SelectPeopleViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\ViewModel\\SelectPeopleViewModel.cs",
+              "RelativeDocumentMoniker": "WpfAppDiplomaDemo\\MVVM\\ViewModel\\SelectPeopleViewModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\WpfAppDiplomaDemo\\WpfAppDiplomaDemo\\MVVM\\ViewModel\\SelectPeopleViewModel.cs",
+              "RelativeToolTip": "WpfAppDiplomaDemo\\MVVM\\ViewModel\\SelectPeopleViewModel.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAA5wH4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T22:42:31.845Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

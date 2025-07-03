@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LangTalkMobileApp.MVVM.View.ChatPage"
+             Title="ChatPage"
+             Shell.NavBarIsVisible="False">
+    <VerticalStackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="750"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+
+                <Grid BackgroundColor="#FFB3BA" HeightRequest="40" VerticalOptions="Start">
+                    <Label Text="{Binding ChatName}" FontSize="16" FontFamily="Karla" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+                    <Grid HeightRequest="20" WidthRequest="20" HorizontalOptions="Start" Margin="30">
+                        <Image Source="back_icon.png"></Image>
+
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding OnChatsCommand}"/>
+                        </Grid.GestureRecognizers>
+                    </Grid>
+                </Grid>
+            </Grid>
+
+            <ScrollView Grid.Row="1">
+                <VerticalStackLayout x:Name="MessagesStack"
+                         ScaleY="-1"
+                         BindableLayout.ItemsSource="{Binding Messages}">
+                    <BindableLayout.ItemTemplate>
+                        <DataTemplate>
+                            <Border ScaleY="-1"
+                        StrokeShape="RoundRectangle 20"
+                        MinimumHeightRequest="60"
+                        MinimumWidthRequest="120"
+                        MaximumWidthRequest="400"
+                        HorizontalOptions="End"
+                        Margin="0,3,5,0">
+                                <Grid Background="#FFB3BA">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="20" />
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="20"/>
+                                    </Grid.RowDefinitions>
+
+                                    <Label Grid.Row="0"
+       Text="{Binding UserName}"
+       TextColor="#392F5A"
+       HorizontalOptions="Center"
+       FontSize="16" />
+
+                                    <Label Grid.Row="1"
+       Text="{Binding Text}"
+       FontSize="18"
+       TextColor="#392F5A"
+       HorizontalOptions="Start"
+       Margin="1,0,0,0" />
+
+                                    <Label Grid.Row="2"
+       Text="{Binding Time}"
+       TextColor="#392F5A"
+       FontSize="14"
+       HorizontalOptions="End"
+       Margin="0,0,10,0" />
+
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </VerticalStackLayout>
+            </ScrollView>
+
+
+            <Grid Grid.Row="2">
+                <HorizontalStackLayout>
+                    <Grid WidthRequest="311">
+                        <VerticalStackLayout>
+                            <Grid HeightRequest="1" Background="#FFB3BA"></Grid>
+                            <Grid HeightRequest="49">
+                                <Entry TextColor="#392F5A" FontSize="18" FontFamily="Karla" Margin="3,0,0,0" Text="{Binding InputText, Mode=TwoWay}"></Entry>
+                            </Grid>
+                        </VerticalStackLayout>
+                    </Grid>
+                    <Grid WidthRequest="100" Background="#FFB3BA">
+                        <Label Text="Send" FontSize="20" FontFamily="Karla" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#392F5A"></Label>
+
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding SendCommand}"/>
+                        </Grid.GestureRecognizers>
+                    </Grid>
+                </HorizontalStackLayout>
+            </Grid>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

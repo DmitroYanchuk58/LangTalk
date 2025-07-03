@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LangTalkMobileApp.MVVM.View.LoginPage"
+             xmlns:elements="clr-namespace:LangTalkMobileApp.DesignElements"
+             Title="LoginPage"
+             Shell.NavBarIsVisible="False">
+    <VerticalStackLayout Background="#F9F9F9">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="90"/>
+                <RowDefinition Height="120"/>
+                <RowDefinition Height="120"/>
+                <RowDefinition Height="120"/>
+                <RowDefinition Height="120"/>
+                <RowDefinition Height="315"/>
+            </Grid.RowDefinitions>
+
+            <Label Text="Login" TextColor="#392F5A" FontSize="40" HorizontalOptions="Center" FontAttributes="Bold" Grid.Row="0" VerticalOptions="Center" CharacterSpacing="5" FontFamily="Karla"/>
+
+            <Border
+                Grid.Row="1"
+                HorizontalOptions="Center"
+                Margin="20,0,0,0"
+            VerticalOptions="Center"
+        StrokeThickness="0"
+        Background="#FFB3BA"
+        HeightRequest="70"
+        WidthRequest="360"
+        StrokeShape="RoundRectangle 30"
+        Padding="10">
+
+                <Entry
+            Text="{Binding Email}"
+            Placeholder="Email"
+            PlaceholderColor="#392F5A"
+            TextColor="#392F5A"
+            HeightRequest="50"
+            BackgroundColor="Transparent"
+            FontSize="24" 
+            FontFamily="Karla"/>
+            </Border>
+
+
+            <Border
+        Grid.Row="2"
+        HorizontalOptions="Center"
+        Margin="20,0,0,0"
+    VerticalOptions="Center"
+StrokeThickness="0"
+Background="#FFB3BA"
+HeightRequest="70"
+WidthRequest="360"
+StrokeShape="RoundRectangle 30"
+Padding="10">
+
+                <Entry
+    Text="{Binding Password}"
+    Placeholder="Password"
+    PlaceholderColor="#392F5A"
+    TextColor="#392F5A"
+    HeightRequest="50"
+    BackgroundColor="Transparent"
+    FontSize="24" 
+    FontFamily="Karla"/>
+            </Border>
+
+
+            <Label  Text="Wrong Email or Password" Grid.Row="2" Margin="0,120,0,0" FontSize="24" TextColor="#FF677D" HorizontalOptions="Center" HeightRequest="32" IsVisible="{Binding IsDataWrong}"/>
+
+            <Button  Grid.Row="5"
+            HeightRequest="70" 
+            WidthRequest="360" 
+            Text="Login" 
+            FontSize="24"  
+            CornerRadius="40" 
+            Background="#D4A5A5" 
+            TextColor="#392F5A" 
+            FontFamily="Karla" 
+            FontAttributes="Bold" 
+            Command="{Binding LoginCommand}"/>
+
+            <Label Text="I don't have an account" Grid.Row="5" Margin="0,0,0,120" FontSize="24" TextColor="#392F5A" HorizontalOptions="Center" HeightRequest="30">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding ChangeOnRegistrationViewCommand}" />
+                </Label.GestureRecognizers>
+            </Label>
+
+            <elements:CheckBox Grid.Row="5" VerticalOptions="End" HorizontalOptions="Center" Margin="0,0,20,60"/>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,24 @@
+<ContentView
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="LangTalkMobileApp.DesignElements.RoundedTextBox">
+
+    <Border
+        StrokeThickness="0"
+        Background="#FFB3BA"
+        HeightRequest="{Binding BoxHeight}"
+        WidthRequest="{Binding BoxWidth}"
+        StrokeShape="RoundRectangle 30"
+        Padding="10">
+
+        <Entry
+            Text="{Binding Text, Mode=TwoWay}"
+            Placeholder="{Binding Placeholder}"
+            PlaceholderColor="#392F5A"
+            TextColor="#392F5A"
+            HeightRequest="50"
+            BackgroundColor="Transparent"
+            FontSize="{Binding FontSize}" 
+            FontFamily="Karla"/>
+    </Border>
+</ContentView>

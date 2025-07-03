@@ -1,0 +1,1530 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\viewmodel\\sortpeopleparametrsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\viewmodel\\sortpeopleparametrsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\view\\sortpeopleparametrspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\view\\sortpeopleparametrspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\view\\sortpeopleparametrspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\view\\sortpeopleparametrspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\viewmodel\\selectpeopleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\viewmodel\\selectpeopleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\view\\selectpeoplepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\view\\selectpeoplepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\dtos\\sortpeopleparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\dtos\\sortpeopleparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\model\\selectpeoplemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\model\\selectpeoplemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\changeviewcommand\\changeviewcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\changeviewcommand\\changeviewcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\changeviewcommand\\selectpeoplechangingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\changeviewcommand\\selectpeoplechangingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\httpcommands\\httpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\httpcommands\\httpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\httpcommands\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\httpcommands\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\viewmodel\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\viewmodel\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\dtos\\mbtitype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\dtos\\mbtitype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\viewmodel\\registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\viewmodel\\registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\designelements\\profileelements\\mbtipart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\designelements\\profileelements\\mbtipart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\viewmodel\\changehobbiesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\viewmodel\\changehobbiesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\view\\changehobbiespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\view\\changehobbiespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\viewmodel\\changeprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\viewmodel\\changeprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\viewmodel\\chatsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\viewmodel\\chatsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Code\\DIPLOMA\\LangTalkServer\\BAL\\Services\\UserInfoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Code\\DIPLOMA\\LangTalkServer\\WebApp_PL\\Controllers\\UserInfoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\view\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\view\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Code\\DIPLOMA\\LangTalkServer\\BAL\\Services\\Interfaces\\IUserInfoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\view\\changeprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\view\\changeprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\view\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\view\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\dtos\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\dtos\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\dtos\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\dtos\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\dtos\\hobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\dtos\\hobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\dtos\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\dtos\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\dtos\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\dtos\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\dtos\\smallchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\dtos\\smallchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\dtos\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\dtos\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\dtos\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\dtos\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\dtos\\userlanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\dtos\\userlanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\dtos\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\dtos\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\dtos\\connectioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\dtos\\connectioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\view\\changembtitypepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\view\\changembtitypepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\viewmodel\\chatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\viewmodel\\chatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\viewmodel\\changembtitypeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\viewmodel\\changembtitypeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\viewmodel\\changelanguagesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\viewmodel\\changelanguagesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\view\\changelanguages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\view\\changelanguages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\view\\changelanguages.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\view\\changelanguages.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\view\\changembtitypepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\view\\changembtitypepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\designelements\\profileelements\\hobbypart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\designelements\\profileelements\\hobbypart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\designelements\\roundedbrownbutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\designelements\\roundedbrownbutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\view\\changehobbiespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\view\\changehobbiespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\model\\registrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\model\\registrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\designelements\\checkbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\designelements\\checkbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\designelements\\checkbox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\designelements\\checkbox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\view\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\view\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\token\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\token\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\view\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\view\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\view\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\view\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\view\\chatspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\view\\chatspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\signalr\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\signalr\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\view\\chatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\view\\chatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\designelements\\profileelements\\hobbypart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\designelements\\profileelements\\hobbypart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\model\\profilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\model\\profilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\model\\chatmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\model\\chatmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\model\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\model\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\designelements\\roundedtextbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\designelements\\roundedtextbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\designelements\\roundedtextbox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\designelements\\roundedtextbox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\view\\changeprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\view\\changeprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\view\\chatspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\view\\chatspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\view\\selectpeoplepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\view\\selectpeoplepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\designelements\\bottommenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\designelements\\bottommenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\mvvm\\view\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\mvvm\\view\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\designelements\\roundedbrownbutton.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\designelements\\roundedbrownbutton.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\designelements\\bottommenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\designelements\\bottommenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\designelements\\profileelements\\descriptionpart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\designelements\\profileelements\\descriptionpart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\designelements\\profileelements\\languagepart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\designelements\\profileelements\\languagepart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\designelements\\profileelements\\languagepart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\designelements\\profileelements\\languagepart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\designelements\\profileelements\\descriptionpart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\designelements\\profileelements\\descriptionpart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\designelements\\profileelements\\mbtipart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\designelements\\profileelements\\mbtipart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dima\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.51\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\langtalkmobileapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\langtalkmobileapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\resources\\appicon\\appicon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\resources\\appicon\\appicon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\resources\\appicon\\appiconfg.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\resources\\appicon\\appiconfg.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\resources\\splash\\splash.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\resources\\splash\\splash.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\resources\\raw\\aboutassets.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\resources\\raw\\aboutassets.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|e:\\code\\diploma\\langtalkmobileapp\\langtalkmobileapp\\resources\\images\\dotnet_bot.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{FAB881FF-E4EC-4FAE-975F-159C29237563}|LangTalkMobileApp\\LangTalkMobileApp.csproj|solutionrelative:langtalkmobileapp\\resources\\images\\dotnet_bot.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SortPeopleParametrsPage.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\SortPeopleParametrsPage.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\View\\SortPeopleParametrsPage.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\SortPeopleParametrsPage.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\View\\SortPeopleParametrsPage.xaml",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAMcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-10T10:48:29.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SortPeopleParametrsPage.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\SortPeopleParametrsPage.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\View\\SortPeopleParametrsPage.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\SortPeopleParametrsPage.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\View\\SortPeopleParametrsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:50:39.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SortPeopleParametrsViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\SortPeopleParametrsViewModel.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\ViewModel\\SortPeopleParametrsViewModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\SortPeopleParametrsViewModel.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\ViewModel\\SortPeopleParametrsViewModel.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAF0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:50:16.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SelectPeopleViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\SelectPeopleViewModel.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\ViewModel\\SelectPeopleViewModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\SelectPeopleViewModel.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\ViewModel\\SelectPeopleViewModel.cs",
+              "ViewState": "AgIAAP0AAAAAAAAAAAAmwAsBAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T11:07:35.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChangeViewCommand.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\ChangeViewCommand\\ChangeViewCommand.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\ChangeViewCommand\\ChangeViewCommand.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\ChangeViewCommand\\ChangeViewCommand.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\ChangeViewCommand\\ChangeViewCommand.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAMwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T08:39:57.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HttpCommand.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\HttpCommands\\HttpCommand.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\HttpCommands\\HttpCommand.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\HttpCommands\\HttpCommand.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\HttpCommands\\HttpCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:11:00.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SelectPeopleModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\Model\\SelectPeopleModel.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\Model\\SelectPeopleModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\Model\\SelectPeopleModel.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\Model\\SelectPeopleModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:07:27.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SelectPeoplePage.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\SelectPeoplePage.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\View\\SelectPeoplePage.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\SelectPeoplePage.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\View\\SelectPeoplePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-07T11:07:20.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SortPeopleParameters.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\SortPeopleParameters.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DTOs\\SortPeopleParameters.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\SortPeopleParameters.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\DTOs\\SortPeopleParameters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T12:00:52.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Command.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\HttpCommands\\Command.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\HttpCommands\\Command.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\HttpCommands\\Command.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\HttpCommands\\Command.cs",
+              "ViewState": "AgIAAI8BAAAAAAAAAAAhwKgBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T18:52:36.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SelectPeopleChangingSystem.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\ChangeViewCommand\\SelectPeopleChangingSystem.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\ChangeViewCommand\\SelectPeopleChangingSystem.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\ChangeViewCommand\\SelectPeopleChangingSystem.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\ChangeViewCommand\\SelectPeopleChangingSystem.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:35:10.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\ViewModel\\ProfileViewModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\ProfileViewModel.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\ViewModel\\ProfileViewModel.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:00:15.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MbtiType.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\MbtiType.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DTOs\\MbtiType.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\MbtiType.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\DTOs\\MbtiType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T17:29:25.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MbtiPart.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\ProfileElements\\MbtiPart.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DesignElements\\ProfileElements\\MbtiPart.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\ProfileElements\\MbtiPart.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\DesignElements\\ProfileElements\\MbtiPart.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-02T15:12:22.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegistrationViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\RegistrationViewModel.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\ViewModel\\RegistrationViewModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\RegistrationViewModel.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\ViewModel\\RegistrationViewModel.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAqwF0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T12:04:09.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChangeHobbiesViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\ChangeHobbiesViewModel.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\ViewModel\\ChangeHobbiesViewModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\ChangeHobbiesViewModel.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\ViewModel\\ChangeHobbiesViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwCYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T14:15:55.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChangeHobbiesPage.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChangeHobbiesPage.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\View\\ChangeHobbiesPage.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChangeHobbiesPage.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\View\\ChangeHobbiesPage.xaml",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwHsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-05T14:13:58.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ChangeProfileViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\ChangeProfileViewModel.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\ViewModel\\ChangeProfileViewModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\ChangeProfileViewModel.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\ViewModel\\ChangeProfileViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:05:25.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ChatsViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\ChatsViewModel.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\ViewModel\\ChatsViewModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\ChatsViewModel.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\ViewModel\\ChatsViewModel.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:50:05.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\View\\ProfilePage.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ProfilePage.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\View\\ProfilePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-05T21:39:59.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserInfoController.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkServer\\WebApp_PL\\Controllers\\UserInfoController.cs",
+              "RelativeDocumentMoniker": "..\\LangTalkServer\\WebApp_PL\\Controllers\\UserInfoController.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkServer\\WebApp_PL\\Controllers\\UserInfoController.cs",
+              "RelativeToolTip": "..\\LangTalkServer\\WebApp_PL\\Controllers\\UserInfoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T20:31:09.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserInfoService.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkServer\\BAL\\Services\\UserInfoService.cs",
+              "RelativeDocumentMoniker": "..\\LangTalkServer\\BAL\\Services\\UserInfoService.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkServer\\BAL\\Services\\UserInfoService.cs",
+              "RelativeToolTip": "..\\LangTalkServer\\BAL\\Services\\UserInfoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T20:31:11.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUserInfoService.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkServer\\BAL\\Services\\Interfaces\\IUserInfoService.cs",
+              "RelativeDocumentMoniker": "..\\LangTalkServer\\BAL\\Services\\Interfaces\\IUserInfoService.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkServer\\BAL\\Services\\Interfaces\\IUserInfoService.cs",
+              "RelativeToolTip": "..\\LangTalkServer\\BAL\\Services\\Interfaces\\IUserInfoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T20:31:11.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ChangeProfilePage.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChangeProfilePage.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\View\\ChangeProfilePage.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChangeProfilePage.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\View\\ChangeProfilePage.xaml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-04T13:04:23.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAEwAoBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-12T16:25:54.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RegistrationPage.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\RegistrationPage.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\View\\RegistrationPage.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\RegistrationPage.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\View\\RegistrationPage.xaml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-01T11:55:19.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\ViewModel\\LoginViewModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\ViewModel\\LoginViewModel.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T19:29:01.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Language.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\Language.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DTOs\\Language.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\Language.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\DTOs\\Language.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:15:33.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Hobby.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\Hobby.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DTOs\\Hobby.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\Hobby.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\DTOs\\Hobby.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T14:32:18.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Country.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\Country.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DTOs\\Country.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\Country.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\DTOs\\Country.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T14:45:27.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\Gender.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DTOs\\Gender.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\Gender.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\DTOs\\Gender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T16:16:27.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Message.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\Message.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DTOs\\Message.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\Message.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\DTOs\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:40:05.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SmallChat.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\SmallChat.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DTOs\\SmallChat.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\SmallChat.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\DTOs\\SmallChat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:19:14.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\User.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DTOs\\User.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\User.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\DTOs\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T16:49:31.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserInfo.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\UserInfo.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DTOs\\UserInfo.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\UserInfo.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\DTOs\\UserInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:12:10.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserLanguage.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\UserLanguage.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DTOs\\UserLanguage.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\UserLanguage.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\DTOs\\UserLanguage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:15:00.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\Chat.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DTOs\\Chat.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\Chat.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\DTOs\\Chat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:41:22.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ConnectionInfo.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\ConnectionInfo.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DTOs\\ConnectionInfo.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DTOs\\ConnectionInfo.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\DTOs\\ConnectionInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:17:49.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ChangeMbtiTypePage.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChangeMbtiTypePage.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\View\\ChangeMbtiTypePage.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChangeMbtiTypePage.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\View\\ChangeMbtiTypePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:04:09.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ChatViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\ChatViewModel.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\ViewModel\\ChatViewModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\ChatViewModel.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\ViewModel\\ChatViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:02:07.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ChangeMbtiTypeViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\ChangeMbtiTypeViewModel.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\ViewModel\\ChangeMbtiTypeViewModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\ChangeMbtiTypeViewModel.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\ViewModel\\ChangeMbtiTypeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:45:43.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ChangeMbtiTypePage.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChangeMbtiTypePage.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\View\\ChangeMbtiTypePage.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChangeMbtiTypePage.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\View\\ChangeMbtiTypePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-05T12:03:48.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ChangeLanguagesViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\ChangeLanguagesViewModel.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\ViewModel\\ChangeLanguagesViewModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\ViewModel\\ChangeLanguagesViewModel.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\ViewModel\\ChangeLanguagesViewModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T18:46:57.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ChangeLanguages.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChangeLanguages.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\View\\ChangeLanguages.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChangeLanguages.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\View\\ChangeLanguages.xaml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAIwIUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-09T18:33:52.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ChangeLanguages.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChangeLanguages.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\View\\ChangeLanguages.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChangeLanguages.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\View\\ChangeLanguages.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T18:50:23.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "HobbyPart.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\ProfileElements\\HobbyPart.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DesignElements\\ProfileElements\\HobbyPart.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\ProfileElements\\HobbyPart.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\DesignElements\\ProfileElements\\HobbyPart.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-03T17:41:42.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "RoundedBrownButton.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\RoundedBrownButton.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DesignElements\\RoundedBrownButton.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\RoundedBrownButton.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\DesignElements\\RoundedBrownButton.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-31T21:05:24.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MauiProgram.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MauiProgram.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MauiProgram.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T17:55:38.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MainPage.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MainPage.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MainPage.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowBwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T17:40:19.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\AppShell.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\AppShell.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T19:34:41.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ChangeHobbiesPage.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChangeHobbiesPage.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\View\\ChangeHobbiesPage.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChangeHobbiesPage.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\View\\ChangeHobbiesPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T14:15:37.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "RegistrationModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\Model\\RegistrationModel.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\Model\\RegistrationModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\Model\\RegistrationModel.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\Model\\RegistrationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T00:36:01.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\View\\LoginPage.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\LoginPage.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\View\\LoginPage.xaml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-31T19:26:51.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CheckBox.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\CheckBox.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DesignElements\\CheckBox.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\CheckBox.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\DesignElements\\CheckBox.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T21:49:09.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CheckBox.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\CheckBox.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DesignElements\\CheckBox.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\CheckBox.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\DesignElements\\CheckBox.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-31T21:48:49.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\App.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\App.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\App.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-01T12:01:13.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\App.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\App.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T12:03:35.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Token\\TokenService.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\Token\\TokenService.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Token\\TokenService.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\Token\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T16:47:22.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MainPage.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MainPage.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\MainPage.xaml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-31T17:39:45.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\View\\ProfilePage.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\View\\ProfilePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:04:06.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "RegistrationPage.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\RegistrationPage.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\View\\RegistrationPage.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\RegistrationPage.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\View\\RegistrationPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T12:10:11.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ChatsPage.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChatsPage.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\View\\ChatsPage.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChatsPage.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\View\\ChatsPage.xaml",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAIwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-05T17:45:29.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ChatPage.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChatPage.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\View\\ChatPage.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChatPage.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\View\\ChatPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:01:56.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Client.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\SignalR\\Client.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\SignalR\\Client.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\SignalR\\Client.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\SignalR\\Client.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T15:09:45.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "HobbyPart.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\ProfileElements\\HobbyPart.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DesignElements\\ProfileElements\\HobbyPart.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\ProfileElements\\HobbyPart.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\DesignElements\\ProfileElements\\HobbyPart.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T17:49:05.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ProfileModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\Model\\ProfileModel.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\Model\\ProfileModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\Model\\ProfileModel.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\Model\\ProfileModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T15:25:28.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ChatModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\Model\\ChatModel.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\Model\\ChatModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\Model\\ChatModel.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\Model\\ChatModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:41:58.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\Model\\LoginModel.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\Model\\LoginModel.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\Model\\LoginModel.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\Model\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:37:23.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "RoundedTextBox.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\RoundedTextBox.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DesignElements\\RoundedTextBox.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\RoundedTextBox.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\DesignElements\\RoundedTextBox.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-31T20:21:43.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "RoundedTextBox.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\RoundedTextBox.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DesignElements\\RoundedTextBox.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\RoundedTextBox.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\DesignElements\\RoundedTextBox.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T20:22:59.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\AppShell.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\AppShell.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-31T17:39:43.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ChangeProfilePage.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChangeProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\View\\ChangeProfilePage.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChangeProfilePage.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\View\\ChangeProfilePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:20:34.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ChatsPage.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChatsPage.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\View\\ChatsPage.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\ChatsPage.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\View\\ChatsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:55:45.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "SelectPeoplePage.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\SelectPeoplePage.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\View\\SelectPeoplePage.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\SelectPeoplePage.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\View\\SelectPeoplePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T11:16:32.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "BottomMenu.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\BottomMenu.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DesignElements\\BottomMenu.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\BottomMenu.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\DesignElements\\BottomMenu.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-01T22:58:21.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "LangTalkMobileApp\\Platforms\\Android\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-06-07T15:57:23.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T11:44:21.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "MainApplication.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Platforms\\Android\\MainApplication.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Platforms\\Android\\MainApplication.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\Platforms\\Android\\MainApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:17:18.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\MVVM\\View\\LoginPage.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\MVVM\\View\\LoginPage.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\MVVM\\View\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T19:31:20.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "RoundedBrownButton.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\RoundedBrownButton.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DesignElements\\RoundedBrownButton.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\RoundedBrownButton.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\DesignElements\\RoundedBrownButton.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T22:11:47.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "BottomMenu.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\BottomMenu.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DesignElements\\BottomMenu.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\BottomMenu.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\DesignElements\\BottomMenu.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T14:32:30.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "DescriptionPart.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\ProfileElements\\DescriptionPart.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DesignElements\\ProfileElements\\DescriptionPart.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\ProfileElements\\DescriptionPart.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\DesignElements\\ProfileElements\\DescriptionPart.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-02T15:00:36.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "LanguagePart.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\ProfileElements\\LanguagePart.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DesignElements\\ProfileElements\\LanguagePart.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\ProfileElements\\LanguagePart.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\DesignElements\\ProfileElements\\LanguagePart.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-03T14:16:17.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "LanguagePart.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\ProfileElements\\LanguagePart.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DesignElements\\ProfileElements\\LanguagePart.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\ProfileElements\\LanguagePart.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\DesignElements\\ProfileElements\\LanguagePart.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:18:25.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "DescriptionPart.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\ProfileElements\\DescriptionPart.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DesignElements\\ProfileElements\\DescriptionPart.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\ProfileElements\\DescriptionPart.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\DesignElements\\ProfileElements\\DescriptionPart.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T15:00:55.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "MbtiPart.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\ProfileElements\\MbtiPart.xaml.cs",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\DesignElements\\ProfileElements\\MbtiPart.xaml.cs",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\DesignElements\\ProfileElements\\MbtiPart.xaml.cs",
+              "RelativeToolTip": "LangTalkMobileApp\\DesignElements\\ProfileElements\\MbtiPart.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T15:13:56.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Microsoft.Maui.Resizetizer.After.targets",
+              "DocumentMoniker": "C:\\Users\\Dima\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.51\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ToolTip": "C:\\Users\\Dima\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.51\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ViewState": "AgIAAFYCAAAAAAAAAAAgwHECAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-01T21:19:45.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\Resources\\Styles\\Styles.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\Resources\\Styles\\Styles.xaml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAqwIYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-31T17:53:17.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "LangTalkMobileApp.csproj",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\LangTalkMobileApp.csproj",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\LangTalkMobileApp.csproj",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\LangTalkMobileApp.csproj",
+              "RelativeToolTip": "LangTalkMobileApp\\LangTalkMobileApp.csproj",
+              "ViewState": "AgIAACIAAAAAAAAAAEBVwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-31T17:55:12.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "appiconfg.svg",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Resources\\AppIcon\\appiconfg.svg",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\Resources\\AppIcon\\appiconfg.svg",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Resources\\AppIcon\\appiconfg.svg",
+              "RelativeToolTip": "LangTalkMobileApp\\Resources\\AppIcon\\appiconfg.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKTSURBVDhPjVNLSFRRGP7unTsz9w75uOaMZlMNpo1aFFJRodRGN7UwatMiKgga3JgVRBSNSA8RooUFLRycCCpc9ITIFi0EW\u002BhCW/gONYUcxplsQL13nKv3dM6ZGV\u002BE9N37c\u002B455/\u002B\u002B/7s/5whYA7/fP5L63BSCIDxvbGxsAiEktZQEE6Brm6K1tXWS5TU0NNQyjsiZKQgCBgBChQ2Q\u002BfswpytgDLmg9zihD9XBNJfhcrlstPoeqlVPRS6uCBDy1broLnN29PkxPeaFFmpC79gOdEu9sB8KQRt\u002Bz/NUVbUGAoGpJIfc5j2gZIuv3fam/sCNGrdjGLGwE23hR\u002BiMeBCKAbXlOTgfr0VW9QfqD4iEZ5BIJNAWDI5yB75X0tXqwrc1JZk90MKVUEq/4UplFc4W5UKwiHjaO4tx90NWiYfT5cQuj4dRITLrZfn9104XtOD3\u002BE4z7/BrqIoKZ4YM37E8XNifA4vdiuCIApPzWY9Wmy9h6UfOpd13t89FstEceyF2PJlAfNHkm6y6xSbxcTASpyuMyFT4NoeI6PV6mzEvvIy0oO\u002BXPVGULaMs186jVLVil0zzF\u002BI4ki\u002BnqjP\u002BGgemrp0Z\u002BHn8T0d0nyrOTky\u002B8x0tNoxE0iZrcSqXz5lAcroCcXkeBcGpyzcnowRTDk9xoDuEmbkE5vRlfB6cRcWzIXibv\u002BNTf5ST0y7SEBa6MGIaOFje2VUnZSgPTFECMZM9YCeLde6cdwvuVLlXrVMFWXGAHqRRaUlDezyEic6tlbFBbW/oS8nHbf0RDZIooDDLipPeTJwozIJJH4EIoG/y1/6Fe/5bj6lFousa0WjoWjoWiLYhGNidWHcXDNhOsVGWFSg0ZCUdDigbIo11Zv73Oq8C\u002BAsr5V2IWWNA0gAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-05-31T17:53:36.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "appicon.svg",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Resources\\AppIcon\\appicon.svg",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\Resources\\AppIcon\\appicon.svg",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Resources\\AppIcon\\appicon.svg",
+              "RelativeToolTip": "LangTalkMobileApp\\Resources\\AppIcon\\appicon.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKTSURBVDhPjVNLSFRRGP7unTsz9w75uOaMZlMNpo1aFFJRodRGN7UwatMiKgga3JgVRBSNSA8RooUFLRycCCpc9ITIFi0EW\u002BhCW/gONYUcxplsQL13nKv3dM6ZGV\u002BE9N37c\u002B455/\u002B\u002B/7s/5whYA7/fP5L63BSCIDxvbGxsAiEktZQEE6Brm6K1tXWS5TU0NNQyjsiZKQgCBgBChQ2Q\u002BfswpytgDLmg9zihD9XBNJfhcrlstPoeqlVPRS6uCBDy1broLnN29PkxPeaFFmpC79gOdEu9sB8KQRt\u002Bz/NUVbUGAoGpJIfc5j2gZIuv3fam/sCNGrdjGLGwE23hR\u002BiMeBCKAbXlOTgfr0VW9QfqD4iEZ5BIJNAWDI5yB75X0tXqwrc1JZk90MKVUEq/4UplFc4W5UKwiHjaO4tx90NWiYfT5cQuj4dRITLrZfn9104XtOD3\u002BE4z7/BrqIoKZ4YM37E8XNifA4vdiuCIApPzWY9Wmy9h6UfOpd13t89FstEceyF2PJlAfNHkm6y6xSbxcTASpyuMyFT4NoeI6PV6mzEvvIy0oO\u002BXPVGULaMs186jVLVil0zzF\u002BI4ki\u002BnqjP\u002BGgemrp0Z\u002BHn8T0d0nyrOTky\u002B8x0tNoxE0iZrcSqXz5lAcroCcXkeBcGpyzcnowRTDk9xoDuEmbkE5vRlfB6cRcWzIXibv\u002BNTf5ST0y7SEBa6MGIaOFje2VUnZSgPTFECMZM9YCeLde6cdwvuVLlXrVMFWXGAHqRRaUlDezyEic6tlbFBbW/oS8nHbf0RDZIooDDLipPeTJwozIJJH4EIoG/y1/6Fe/5bj6lFousa0WjoWjoWiLYhGNidWHcXDNhOsVGWFSg0ZCUdDigbIo11Zv73Oq8C\u002BAsr5V2IWWNA0gAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-05-31T17:53:34.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\Resources\\Styles\\Colors.xaml",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "LangTalkMobileApp\\Resources\\Styles\\Colors.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-31T17:53:07.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "splash.svg",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Resources\\Splash\\splash.svg",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\Resources\\Splash\\splash.svg",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Resources\\Splash\\splash.svg",
+              "RelativeToolTip": "LangTalkMobileApp\\Resources\\Splash\\splash.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKTSURBVDhPjVNLSFRRGP7unTsz9w75uOaMZlMNpo1aFFJRodRGN7UwatMiKgga3JgVRBSNSA8RooUFLRycCCpc9ITIFi0EW\u002BhCW/gONYUcxplsQL13nKv3dM6ZGV\u002BE9N37c\u002B455/\u002B\u002B/7s/5whYA7/fP5L63BSCIDxvbGxsAiEktZQEE6Brm6K1tXWS5TU0NNQyjsiZKQgCBgBChQ2Q\u002BfswpytgDLmg9zihD9XBNJfhcrlstPoeqlVPRS6uCBDy1broLnN29PkxPeaFFmpC79gOdEu9sB8KQRt\u002Bz/NUVbUGAoGpJIfc5j2gZIuv3fam/sCNGrdjGLGwE23hR\u002BiMeBCKAbXlOTgfr0VW9QfqD4iEZ5BIJNAWDI5yB75X0tXqwrc1JZk90MKVUEq/4UplFc4W5UKwiHjaO4tx90NWiYfT5cQuj4dRITLrZfn9104XtOD3\u002BE4z7/BrqIoKZ4YM37E8XNifA4vdiuCIApPzWY9Wmy9h6UfOpd13t89FstEceyF2PJlAfNHkm6y6xSbxcTASpyuMyFT4NoeI6PV6mzEvvIy0oO\u002BXPVGULaMs186jVLVil0zzF\u002BI4ki\u002BnqjP\u002BGgemrp0Z\u002BHn8T0d0nyrOTky\u002B8x0tNoxE0iZrcSqXz5lAcroCcXkeBcGpyzcnowRTDk9xoDuEmbkE5vRlfB6cRcWzIXibv\u002BNTf5ST0y7SEBa6MGIaOFje2VUnZSgPTFECMZM9YCeLde6cdwvuVLlXrVMFWXGAHqRRaUlDezyEic6tlbFBbW/oS8nHbf0RDZIooDDLipPeTJwozIJJH4EIoG/y1/6Fe/5bj6lFousa0WjoWjoWiLYhGNidWHcXDNhOsVGWFSg0ZCUdDigbIo11Zv73Oq8C\u002BAsr5V2IWWNA0gAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-05-31T17:53:05.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "AboutAssets.txt",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Resources\\Raw\\AboutAssets.txt",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\Resources\\Raw\\AboutAssets.txt",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Resources\\Raw\\AboutAssets.txt",
+              "RelativeToolTip": "LangTalkMobileApp\\Resources\\Raw\\AboutAssets.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-31T17:53:03.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "dotnet_bot.png - PNG [1200x738, 32 bit, PNG]",
+              "DocumentMoniker": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Resources\\Images\\dotnet_bot.png",
+              "RelativeDocumentMoniker": "LangTalkMobileApp\\Resources\\Images\\dotnet_bot.png",
+              "ToolTip": "E:\\Code\\DIPLOMA\\LangTalkMobileApp\\LangTalkMobileApp\\Resources\\Images\\dotnet_bot.png - PNG [1200x738, 32 bit, PNG]",
+              "RelativeToolTip": "LangTalkMobileApp\\Resources\\Images\\dotnet_bot.png - PNG [1200x738, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-31T17:52:54.48Z",
+              "EditorCaption": " - PNG [1200x738, 32 bit, PNG]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

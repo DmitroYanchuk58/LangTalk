@@ -1,0 +1,82 @@
+﻿<Application x:Class="WpfAppDiplomaDemo.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfAppDiplomaDemo" xmlns:viewModel="clr-namespace:WpfAppDiplomaDemo.MVVM.ViewModel" xmlns:view="clr-namespace:WpfAppDiplomaDemo.MVVM.View"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Theme/SelectPeopleThemes/TextBlockTheme.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/Theme/SelectPeopleThemes/AccountDataTextBlockTheme.xaml" />
+                <ResourceDictionary Source="/Theme/SelectPeopleThemes/HobbyTextBlockTheme.xaml" />
+                <ResourceDictionary Source="/Theme/SelectPeopleThemes/DescriptionTextBoxTheme.xaml" />
+                <ResourceDictionary Source="/Theme/SelectPeopleThemes/ShadowPanelTheme.xaml"/>
+                <ResourceDictionary Source="/Theme/SelectPeopleThemes/ButtonPanelTheme.xaml"/>
+                <ResourceDictionary Source="/Theme/ProfileThemes/TextField.xaml"/>
+                <ResourceDictionary Source="/Theme/ProfileThemes/BigTextField.xaml"/>
+                <ResourceDictionary Source="/Theme/ProfileThemes/LanguageTextField.xaml"/>
+                <ResourceDictionary Source="/Theme/RegLogThemes/RegistartionTextBox.xaml"/>
+                <ResourceDictionary Source="/Theme/RegLogThemes/RegLogButton.xaml"/>
+                <ResourceDictionary Source="/Theme/RegLogThemes/LoginCheckBox.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
+                <view:HomeView />
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:SelectPeopleViewModel}">
+                <view:SelectPeopleView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:LoginViewModel}">
+                <view:LoginView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:ChatsViewModel}">
+                <view:ChatsView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:SmallChatViewModel}">
+                <view:SmallChatView/>
+            </DataTemplate>
+            
+            <DataTemplate DataType="{x:Type viewModel:ChatViewModel}">
+                <view:ChatView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:MessageViewModel}">
+                <view:MessageView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:ProfileViewModel}">
+                <view:ProfileView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:BottomMenuViewModel}">
+                <view:BottomMenuView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:RegistrationViewModel}">
+                <view:RegistrationView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:ChangeInfoViewModel}">
+                <view:ChangeInfoView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:ChangeChoiceViewModel}">
+                <view:ChangeChoiceView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:AddUserLanguageViewModel}">
+                <view:AddUserLanguageView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:AddUserHobbyViewModel}">
+                <view:AddUserHobbyView/>
+            </DataTemplate>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

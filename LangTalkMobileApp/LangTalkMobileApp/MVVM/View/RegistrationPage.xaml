@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LangTalkMobileApp.MVVM.View.RegistrationPage"
+             Title="RegistrationPage"
+             Shell.NavBarIsVisible="False"
+             xmlns:elements="clr-namespace:LangTalkMobileApp.DesignElements">
+    <VerticalStackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="90"/>
+                <RowDefinition Height="120"/>
+                <RowDefinition Height="120"/>
+                <RowDefinition Height="120"/>
+                <RowDefinition Height="120"/>
+                <RowDefinition Height="315"/>
+            </Grid.RowDefinitions>
+
+            <Label Text="Registration" TextColor="#392F5A" FontSize="40" HorizontalOptions="Center" FontAttributes="Bold" Grid.Row="0" VerticalOptions="Center" CharacterSpacing="3" FontFamily="Karla" Margin="0,0,0,0"/>
+
+            <Border
+                Grid.Row="1"
+        StrokeThickness="0"
+                Margin="20,0,0,0"
+        Background="#FFB3BA"
+        HeightRequest="70"
+        WidthRequest="360"
+        StrokeShape="RoundRectangle 30"
+        Padding="10">
+
+                <Entry
+            Text="{Binding Nickname}"
+            Placeholder="Nickname"
+            PlaceholderColor="#392F5A"
+            TextColor="#392F5A"
+            HeightRequest="50"
+            BackgroundColor="Transparent"
+            FontSize="24" 
+            FontFamily="Karla"/>
+
+            </Border>
+
+
+
+            <Border
+        Grid.Row="2"
+StrokeThickness="0"
+        Margin="20,0,0,0"
+Background="#FFB3BA"
+HeightRequest="70"
+WidthRequest="360"
+StrokeShape="RoundRectangle 30"
+Padding="10">
+
+                <Entry
+    Text="{Binding Email}"
+    Placeholder="Email"
+    PlaceholderColor="#392F5A"
+    TextColor="#392F5A"
+    HeightRequest="50"
+    BackgroundColor="Transparent"
+    FontSize="24" 
+    FontFamily="Karla"/>
+
+            </Border>
+
+            <Border
+        Grid.Row="3"
+StrokeThickness="0"
+        Margin="20,0,0,0"
+Background="#FFB3BA"
+HeightRequest="70"
+WidthRequest="360"
+StrokeShape="RoundRectangle 30"
+Padding="10">
+
+                <Entry
+    Text="{Binding Password}"
+    Placeholder="Password"
+    PlaceholderColor="#392F5A"
+    TextColor="#392F5A"
+    HeightRequest="50"
+    BackgroundColor="Transparent"
+    FontSize="24" 
+    FontFamily="Karla"/>
+
+            </Border>
+
+
+
+            <Border
+        Grid.Row="4"
+StrokeThickness="0"
+        Margin="20,0,0,0"
+Background="#FFB3BA"
+HeightRequest="70"
+WidthRequest="360"
+StrokeShape="RoundRectangle 30"
+Padding="10">
+
+                <Entry
+    Text="{Binding ConfirmPassword}"
+    Placeholder="Password"
+    PlaceholderColor="#392F5A"
+    TextColor="#392F5A"
+    HeightRequest="50"
+    BackgroundColor="Transparent"
+    FontSize="24" 
+    FontFamily="Karla"/>
+
+            </Border>
+
+            <Button 
+                Grid.Row="5"
+            HeightRequest="70" 
+            WidthRequest="360" 
+            Text="Register" 
+            FontSize="24"  
+            CornerRadius="40" 
+            Background="#D4A5A5" 
+            TextColor="#392F5A" 
+            FontFamily="Karla" 
+            FontAttributes="Bold" 
+            Command="{Binding RegisterCommand}"/>
+
+            <Label Text="I have an account" Grid.Row="5" Margin="0,0,0,120" HeightRequest="30" FontSize="24" TextColor="#392F5A" HorizontalOptions="Center" FontFamily="Karla">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding ChangeOnLoginViewCommand}" />
+                </Label.GestureRecognizers>
+            </Label>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

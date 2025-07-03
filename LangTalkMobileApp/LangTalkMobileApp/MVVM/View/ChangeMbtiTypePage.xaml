@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LangTalkMobileApp.MVVM.View.ChangeMbtiTypePage"
+             Title="ChangeMbtiTypePage"
+             xmlns:elements="clr-namespace:LangTalkMobileApp.DesignElements"
+             Shell.NavBarIsVisible="False">
+    <VerticalStackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="690"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid BackgroundColor="#FFB3BA" HeightRequest="100" VerticalOptions="Start"></Grid>
+                <Grid HeightRequest="30" Background="#FFB3BA" VerticalOptions="Start" Opacity="0.8">
+                    <Grid HeightRequest="20" WidthRequest="20" HorizontalOptions="Start" Margin="30">
+                        <Image Source="back_icon.png"></Image>
+                    </Grid>
+
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding OnProfileCommand}"/>
+                    </Grid.GestureRecognizers>
+                </Grid>
+
+                <Border WidthRequest="130"
+                        HeightRequest="130"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        Background="#F9F9F9"
+                        StrokeShape="RoundRectangle 120">
+
+                    <Image Source="default_profile_image.jpg"
+                            Aspect="AspectFill"
+                            WidthRequest="120"
+                            HeightRequest="120"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center">
+                        <Image.Clip>
+                            <EllipseGeometry Center="60,60" RadiusX="60" RadiusY="60"/>
+                        </Image.Clip>
+                    </Image>
+                </Border>
+
+                <Label Text="Change Mbti Type" FontFamily="Karla" FontSize="18" VerticalOptions="End" HorizontalOptions="Center" Margin="0,0,0,10"></Label>
+                
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="120"/>
+                    <RowDefinition Height="300"/>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+                <Label Text="Mbti Type" TextColor="#392F5A" Grid.Row="0" Margin="50,0,0,20" FontSize="18" FontFamily="Karla"></Label>
+                <Border Grid.Row="0"
+                        StrokeThickness="0"
+                        Background="#FFB3BA"
+                        HeightRequest="50"
+                        WidthRequest="360"
+                        StrokeShape="RoundRectangle 30"
+                        Margin="15,0,0,0"
+                       Padding="10">
+
+                    <Picker
+                        TextColor="#392F5A"
+                        HeightRequest="50"
+                        BackgroundColor="Transparent"
+                        ItemsSource="{Binding MbtiTypes}"
+                        SelectedItem="{Binding MbtiType}"
+                        FontSize="20" 
+                        FontFamily="Karla"/>
+                </Border>
+
+
+                <Label Grid.Row="1" FontSize="16" Margin="50,0,0,0" FontFamily="Karla" VerticalOptions="Start" Text="About type"></Label>
+                <Label Grid.Row="2" FontSize="16" Margin="20,0,0,0" FontFamily="Karla" VerticalOptions="Start"
+                   Text="{Binding MbtiDescription}"
+                   LineBreakMode="TailTruncation"
+                   MaxLines="6" WidthRequest="350"></Label>
+
+                <Button 
+                    Grid.Row="4"
+            HeightRequest="50" 
+            WidthRequest="300" 
+            Text="Change Mbti Type" 
+            FontSize="20"  
+            CornerRadius="40" 
+            Background="#D4A5A5" 
+            TextColor="#392F5A" 
+            FontFamily="Karla" 
+            FontAttributes="Bold" 
+            Command="{Binding ChangeMbtiTypeCommand}"/>
+            </Grid>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>
