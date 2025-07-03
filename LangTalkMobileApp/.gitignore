@@ -40,3 +40,91 @@ npm-debug.log*
 .idea/
 *.sln.iml
  
+## Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.vscode/
+*.DS_Store
+
+## Rider
+.idea/
+*.sln.iml
+
+## Visual Studio Code
+.vscode/
+
+## MAUI specific
+*.db
+*.db-shm
+*.db-wal
+
+## DotNet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Xamarin/.NET MAUI generated
+*.apk
+*.ap_
+*.aab
+*.app/
+*.xcarchive
+*.xcuserstate
+*.nupkg
+*.keystore
+*.pfx
+*.snk
+
+# Mac
+*.DS_Store
+
+# VS for Mac
+.vscode/
+.vs/
+*.pidb
+*.suo
+*.userprefs
+
+# Packages folder
+packages/
+*.nupkg
+*.nuspec
+
+# Android specific
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.jar
+*.keystore
+
+# iOS/macOS specific
+*.dSYM
+*.plist
+*.ipa
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+*.entitlements
+*.mobileprovision
+*.provisionprofile
+*.pbxuser
+
+
+# Node/npm (if you have Blazor Hybrid or JS interop)
+node_modules/
+npm-debug.log*
+
+# Logs
+*.log
+
