@@ -1,15 +1,42 @@
+# Android Studio / IntelliJ
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+*.ipr
+*.iws
+
+# Kotlin/Java build output
+build/
+.gradle/
+**/build/
+
+# Local configuration
 local.properties
+*.keystore
+
+# Gradle wrapper logs and cache
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# APKs
+*.apk
+*.ap_
+
+# VS Code
+.vscode/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+ 
